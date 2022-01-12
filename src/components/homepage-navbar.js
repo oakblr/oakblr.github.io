@@ -25,7 +25,7 @@ function HomePageNavBar() {
   const handleCloseNavMenu = () => {
     setAnchorElNav(null)
   }
-  const goToAnchoLink = ({ link }) => {
+  const goToAnchorLink = ({ link }) => {
     document.getElementById(link)?.scrollIntoView({ behavior: "smooth" })
   }
 
@@ -81,7 +81,7 @@ function HomePageNavBar() {
                   key={page}
                   onClick={() => {
                     handleCloseNavMenu()
-                    goToAnchoLink(`/#${page}`)
+                    goToAnchorLink(`/#${page}`)
                   }}
                 >
                   <Typography textAlign="center">{page}</Typography>
@@ -124,7 +124,7 @@ function HomePageNavBar() {
                 key={page}
                 onClick={() => {
                   handleCloseNavMenu()
-                  goToAnchoLink(`/#${page}`)
+                  goToAnchorLink(`/#${page}`)
                 }}
                 sx={{ mx: 0.25, my: 2, color: "white", display: "block" }}
               >
