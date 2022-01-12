@@ -13,9 +13,10 @@ import {
   Typography,
 } from "@mui/material"
 import MenuIcon from "@mui/icons-material/Menu"
+import siteData from "../../site-data"
 
 function HomePageNavBar() {
-  const pages = require("../../site-data.js").siteData.homepageSections
+  const pages = siteData.homepageSections
   const [anchorElNav, setAnchorElNav] = React.useState(null)
 
   const handleOpenNavMenu = event => {
@@ -133,7 +134,7 @@ function HomePageNavBar() {
           </Box>
           <Box sx={{ display: { xs: "none", sm: "flex" } }}>
             <Button
-              href={require("../../site-data.js").siteData.registerButton.url}
+              href={siteData.registerButton.url}
               target="_blank"
               rel="noreferrer"
               sx={{
@@ -143,7 +144,7 @@ function HomePageNavBar() {
               }}
               variant="contained"
             >
-              {require("../../site-data.js").siteData.registerButton.text}
+              {siteData.registerButton.text}
             </Button>
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", sm: "none" } }}>

@@ -1,5 +1,5 @@
 module.exports = {
-  siteMetadata: require("./site-data.js").siteMetadata,
+  siteMetadata: require("./site-metadata.js").siteMetadata,
   plugins: [
     {
       resolve: "gatsby-plugin-google-analytics",
