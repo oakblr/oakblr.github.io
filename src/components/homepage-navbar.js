@@ -1,0 +1,158 @@
+import * as React from "react"
+import { StaticImage } from "gatsby-plugin-image"
+import {
+  AppBar,
+  Box,
+  Button,
+  Card,
+  Container,
+  IconButton,
+  Menu,
+  MenuItem,
+  Toolbar,
+  Typography,
+} from "@mui/material"
+import MenuIcon from "@mui/icons-material/Menu"
+
+function HomePageNavBar() {
+  const pages = require("../../site-data.js").siteData.homepageSections
+  const [anchorElNav, setAnchorElNav] = React.useState(null)
+
+  const handleOpenNavMenu = event => {
+    setAnchorElNav(event.currentTarget)
+  }
+  const handleCloseNavMenu = () => {
+    setAnchorElNav(null)
+  }
+  const goToAnchoLink = ({ link }) => {
+    document.getElementById(link)?.scrollIntoView({ behavior: "smooth" })
+  }
+
+  return (
+    <AppBar position="static">
+      <Container maxWidth="xl">
+        <Toolbar disableGutters>
+          <Card
+            elevation={3}
+            sx={{ p: 0.25, m: 1, display: { xs: "none", sm: "flex" } }}
+          >
+            <a href="https://www.oakridge.in/" target="_blank" rel="noreferrer">
+              <StaticImage
+                src="../images/oakridge-logo.png"
+                alt="Oakridge Logo"
+                placeholder="blurred"
+                height={45}
+              />
+            </a>
+          </Card>
+
+          <Box sx={{ flexGrow: 1, display: { xs: "flex", sm: "none" } }}>
+            <IconButton
+              size="large"
+              aria-label="page navigation drawer"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              onClick={handleOpenNavMenu}
+              color="inherit"
+            >
+              <MenuIcon />
+            </IconButton>
+            <Menu
+              id="menu-appbar"
+              anchorEl={anchorElNav}
+              anchorOrigin={{
+                vertical: "bottom",
+                horizontal: "left",
+              }}
+              keepMounted
+              transformOrigin={{
+                vertical: "top",
+                horizontal: "left",
+              }}
+              open={Boolean(anchorElNav)}
+              onClose={handleCloseNavMenu}
+              sx={{
+                display: { xs: "block", sm: "none" },
+              }}
+            >
+              {pages.map(page => (
+                <MenuItem
+                  key={page}
+                  onClick={() => {
+                    handleCloseNavMenu()
+                    goToAnchoLink(`/#${page}`)
+                  }}
+                >
+                  <Typography textAlign="center">{page}</Typography>
+                </MenuItem>
+              ))}
+            </Menu>
+          </Box>
+          <Box
+            sx={{
+              flexGrow: 1,
+              justifyContent: "center",
+              display: { xs: "flex", sm: "none" },
+            }}
+          >
+            <Card
+              elevation={3}
+              sx={{
+                p: 0.25,
+                my: 1,
+              }}
+            >
+              <a
+                href="https://www.oakridge.in/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <StaticImage
+                  src="../images/oakridge-logo.png"
+                  alt="Oakridge Logo"
+                  placeholder="blurred"
+                  height={45}
+                />
+              </a>
+            </Card>
+          </Box>
+          <Box sx={{ flexGrow: 1, display: { xs: "none", sm: "flex" } }} />
+          <Box sx={{ display: { xs: "none", sm: "flex" } }}>
+            {pages.map(page => (
+              <Button
+                key={page}
+                onClick={() => {
+                  handleCloseNavMenu()
+                  goToAnchoLink(`/#${page}`)
+                }}
+                sx={{ mx: 0.25, my: 2, color: "white", display: "block" }}
+              >
+                {page}
+              </Button>
+            ))}
+          </Box>
+          <Box sx={{ display: { xs: "none", sm: "flex" } }}>
+            <Button
+              href={require("../../site-data.js").siteData.registerButton.url}
+              target="_blank"
+              rel="noreferrer"
+              sx={{
+                mx: 0.5,
+                my: 2,
+                display: "block",
+              }}
+              variant="contained"
+            >
+              {require("../../site-data.js").siteData.registerButton.text}
+            </Button>
+          </Box>
+          <Box sx={{ flexGrow: 1, display: { xs: "flex", sm: "none" } }}>
+            <IconButton size="large" />
+          </Box>
+        </Toolbar>
+      </Container>
+    </AppBar>
+  )
+}
+
+export default HomePageNavBar
