@@ -1,4 +1,5 @@
 import React from "react"
+import { Tungsten, Style, EmojiEvents } from "@mui/icons-material"
 
 // prettier-ignore
 const typewriterContent = (
@@ -26,6 +27,26 @@ const siteData = {
   },
   typewriterContent: typewriterContent,
   codefestEndDate: "January 22 2022 11:00:00 GMT+0530",
+  introCardSections: [
+    {
+      icon: <Tungsten sx={{ fontSize: "54px" }} />,
+      title: "What is Codefest?",
+      content:
+        "Oakridge Codefest is one of Bangalore's largest high-school hackathons that provides the opportunity for aspiring developers to showcase their unique talents to both each other and veterans of the industry.",
+    },
+    {
+      icon: <Style sx={{ fontSize: "54px" }} />,
+      title: "Themes",
+      content:
+        "With a multitude of impactful themes, the participants will be tackling current technical problems with innovative improvements and solutions.",
+    },
+    {
+      icon: <EmojiEvents sx={{ fontSize: "54px" }} />,
+      title: "Rewards",
+      content:
+        "Placement in the top three will guarantee a large monetary reward, and additionally, sponsor themes have their own rewards, which include a large assortment of products and services of equal value.",
+    },
+  ],
 }
 
 export default siteData
