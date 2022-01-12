@@ -41,7 +41,7 @@ function HomePageTypewriter() {
             maxWidth: "500px",
             width: "60%",
             borderRadius: "6px",
-            opacity: 0.7,
+            opacity: 0.95,
           }}
         >
           <div
