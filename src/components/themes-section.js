@@ -21,14 +21,14 @@ function ThemesSection() {
     <div align="center">
       <Box sx={{ maxWidth: "1000px", width: "80vw" }}>
         <Card elevation={5} sx={{ p: 3, marginBottom: 2 }}>
-          <Typography variant="h3">{siteData.themeSection.title}</Typography>
+          <Typography variant="h3">{siteData.themesSection.title}</Typography>
           <br />
           <Typography variant="body1">
-            {siteData.themeSection.description}
+            {siteData.themesSection.description}
           </Typography>
         </Card>
         <Box sx={{ display: { xs: "block", lg: "none" }, textAlign: "left" }}>
-          {siteData.themeSection.themes
+          {siteData.themesSection.themes
             .reduce((themeList, themeGroup) => themeList.concat(themeGroup))
             .map(theme => (
               <Accordion
@@ -49,7 +49,7 @@ function ThemesSection() {
             ))}
         </Box>
         <Box sx={{ display: { xs: "none", lg: "block" } }}>
-          {siteData.themeSection.themes.map(themeGroup => (
+          {siteData.themesSection.themes.map(themeGroup => (
             <Box
               className="card-list"
               sx={{
