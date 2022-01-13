@@ -7,6 +7,7 @@ import Countdown from "../components/countdown"
 import IntroCard from "../components/intro-card"
 import ThemesSection from "../components/themes-section"
 import PrizesSection from "../components/prizes-section"
+import FaqSection from "../components/faq-section"
 import { Button, Typography } from "@mui/material"
 
 const IndexPage = () => {
@@ -24,6 +25,8 @@ const IndexPage = () => {
         <ThemesSection />
         <div id="Prizes" style={{ margin: "20px" }}></div>
         <PrizesSection />
+        <div id="FAQ" style={{ margin: "20px" }}></div>
+        <FaqSection />
         <div style={{ margin: "20px" }}></div>
         <Typography variant="h2">Hello World</Typography>
         <Button>Test</Button>

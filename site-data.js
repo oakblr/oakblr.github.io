@@ -7,6 +7,17 @@ import {
   LocalHospital,
   VideogameAsset,
 } from "@mui/icons-material"
+import {
+  People,
+  Laptop,
+  MonetizationOn,
+  Grading,
+  Language,
+  LightbulbOutlined,
+  Copyright,
+  Cached,
+} from "@mui/icons-material"
+import { ContactMail, PendingActions, Event } from "@mui/icons-material"
 
 // prettier-ignore
 const typewriterContent = (
@@ -27,7 +38,7 @@ themes:[ {"\n"}
 )
 
 const siteData = {
-  homepageSections: ["Themes", "Prizes", "Sponsors", "FAQ"],
+  homepageSections: ["Themes", "Prizes", "FAQ", "Sponsors"],
   registerButton: {
     text: "Register Now",
     url: "https://forms.gle/7qxxhaCbP16mW7ez5",
@@ -101,7 +112,7 @@ const siteData = {
           example: <p>Examples: Worksheet Generator and Note Taking App</p>,
         },
         {
-          name: "Environmental sustainability",
+          name: "Environmental Sustainability",
           icon: <LocalFlorist />,
           description: (
             <p>
@@ -156,6 +167,157 @@ const siteData = {
   prizesSection: {
     cash: "Total cash prizes worth ₹75,000",
     sponsor: "Exclusive participation perks from our sponsors",
+  },
+  faqSection: {
+    title: "Frequently Asked Questions (FAQ)",
+    description: (
+      <>
+        Email us at{" "}
+        <a href="mailto:oakcodefest@oakridge.in">oakcodefest@oakridge.in</a> for
+        further queries.
+      </>
+    ),
+    faqGroups: [
+      {
+        groupTitle: "Participation Details",
+        faqs: [
+          {
+            title: "Who can participate in this event?",
+            icon: <People />,
+            content: (
+              <p>
+                Anyone between grades 6 and 12 with a passion for technology.
+              </p>
+            ),
+          },
+          {
+            title: "What platform will Codefest be held on?",
+            icon: <Laptop />,
+            content: (
+              <p>
+                The opening and closing ceremonies will be hosted on Zoom while
+                the rest of the event will be held on Microsoft Teams.
+              </p>
+            ),
+          },
+          {
+            title: "What does my registration fee go towards?",
+            icon: <MonetizationOn />,
+            content: (
+              <p>
+                The ₹300 will cover your access to the virtual venue and all
+                other platforms that we'll use to communicate with participants
+                and would make you eligible for the rewards provided by our
+                sponsors. Proceeds from the Oakridge Codefest will contribute to
+                a fund for a donation to charity.
+              </p>
+            ),
+          },
+          {
+            title: "Is there a selection process for the Oakridge Codefest?",
+            icon: <Grading />,
+            content: (
+              <p>
+                We at Codefest believe that everyone with a passion for coding
+                should be given the opportunity to participate in the event. To
+                facilitate this, our team will guide all teams towards creating
+                a solid idea for their projects. Participants will receive a
+                final confirmation once their idea has been vetted by the
+                Codefest team at least 2 weeks before the event.
+              </p>
+            ),
+          },
+        ],
+      },
+      {
+        groupTitle: "Idea Details",
+        faqs: [
+          {
+            title: "What languages/software can I use?",
+            icon: <Language />,
+            content: (
+              <p>
+                Any language, technology stack, or library can be used to create
+                your solutions, except drag and drop software like MIT App
+                Inventor.
+              </p>
+            ),
+          },
+          {
+            title: "Do we need to have the idea/solution fully working?",
+            icon: <LightbulbOutlined />,
+            content: (
+              <p>
+                The entire idea need not be implemented, however, the submission
+                should be functional so that it can be reviewed by the judges.
+              </p>
+            ),
+          },
+          {
+            title:
+              "Who will own the IP (Intellectual Property) rights to the solution?",
+            icon: <Copyright />,
+            content: (
+              <p>
+                The developer/developers of the web/mobile application will have
+                all rights and own the IP of the product. However, all code
+                needs to be in the public domain (open source) so that it can be
+                evaluated by the judges.
+              </p>
+            ),
+          },
+          {
+            title: "Can I submit previously developed projects?",
+            icon: <Cached />,
+            content: (
+              <p>
+                No, any submission made to the event must be developed within
+                the 24 hour time limit and must fit the selected theme.
+              </p>
+            ),
+          },
+        ],
+      },
+    ],
+    timelineSection: {
+      title: "Important Dates",
+      timeline: [
+        {
+          title: "Registration Opens",
+          icon: <ContactMail />,
+          date: "19th of December",
+          description: (
+            <p>
+              Participants are expected to sign up for the event and submit a
+              detailed idea on what exactly they are going to do at the event.
+            </p>
+          ),
+        },
+        {
+          title: "Registration Closes",
+          icon: <PendingActions />,
+          date: "18th of January",
+          description: (
+            <p>
+              Participants will not be allowed to register after this date. All
+              registered participants will be emailed special event invite
+              links.
+            </p>
+          ),
+        },
+        {
+          title: "Event Starts",
+          icon: <Event />,
+          date: "22th of January",
+          description: (
+            <p>
+              All registered participants will receive an email a day before the
+              with instructions on how to join the event.
+            </p>
+          ),
+        },
+      ],
+    },
   },
 }
 
