@@ -4,9 +4,10 @@ import HomePageNavBar from "../components/homepage-navbar"
 import HomePageTypewriter from "../components/homepage-typewriter"
 import HomePageVideo from "../components/homepage-video"
 import Countdown from "../components/countdown"
-import { Button, Typography } from "@mui/material"
 import IntroCard from "../components/intro-card"
 import ThemesSection from "../components/themes-section"
+import PrizesSection from "../components/prizes-section"
+import { Button, Typography } from "@mui/material"
 
 const IndexPage = () => {
   return (
@@ -19,8 +20,10 @@ const IndexPage = () => {
         <Countdown />
         <div style={{ margin: "20px" }}></div>
         <IntroCard />
-        <div style={{ margin: "32px" }}></div>
+        <div id="Themes" style={{ margin: "32px" }}></div>
         <ThemesSection />
+        <div id="Prizes" style={{ margin: "20px" }}></div>
+        <PrizesSection />
         <div style={{ margin: "20px" }}></div>
         <Typography variant="h2">Hello World</Typography>
         <Button>Test</Button>

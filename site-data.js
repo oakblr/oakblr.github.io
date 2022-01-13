@@ -54,7 +54,7 @@ const siteData = {
         "Placement in the top three will guarantee a large monetary reward, and additionally, sponsor themes have their own rewards, which include a large assortment of products and services of equal value.",
     },
   ],
-  themeSection: {
+  themesSection: {
     title: "Themes for Oakridge Codefest (2022)",
     description: (
       <>
@@ -152,6 +152,10 @@ const siteData = {
         },
       ],
     ],
+  },
+  prizesSection: {
+    cash: "Total cash prizes worth ₹75,000",
+    sponsor: "Exclusive participation perks from our sponsors",
   },
 }
 
