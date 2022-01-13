@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Box, Card, Divider, Icon, Stack, Typography } from "@mui/material"
+import { Box, Card, Divider, Stack, Typography } from "@mui/material"
 import siteData from "../../site-data"
 
 function IntroCard() {
@@ -20,7 +20,6 @@ function IntroCard() {
                   xs: "60vw",
                   sm: `${64 / siteData.introCardSections.length}vw`,
                 },
-                align: "center",
               }}
             >
               {section.icon}
