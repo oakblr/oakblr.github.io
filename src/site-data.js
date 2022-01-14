@@ -1,4 +1,5 @@
-import React from "react"
+import * as React from "react"
+import { Card } from "@mui/material"
 import { Tungsten, Style, EmojiEvents } from "@mui/icons-material"
 import {
   Biotech,
@@ -18,6 +19,8 @@ import {
   Cached,
 } from "@mui/icons-material"
 import { ContactMail, PendingActions, Event } from "@mui/icons-material"
+import { Typography } from "@mui/material"
+import { StaticImage } from "gatsby-plugin-image"
 
 // prettier-ignore
 const typewriterContent = (
@@ -318,6 +321,72 @@ const siteData = {
         },
       ],
     },
+  },
+  sponsorsSection: {
+    title: "Event Sponsors",
+    sponsorGroups: [
+      {
+        title: <Typography variant="h4">Title Sponsor</Typography>,
+        sponsorRows: [
+          [
+            <Card
+              elevation={4}
+              sx={{
+                width: "70%",
+                margin: 2,
+                borderRadius: "10px",
+                overflow: "hidden",
+              }}
+            >
+              <a
+                href="https://www.teamhgs.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <StaticImage src="./images/sponsors/hgs.png" alt="HGS Logo" />
+              </a>
+            </Card>,
+          ],
+        ],
+      },
+      {
+        title: <Typography variant="h5">In-kind Partners</Typography>,
+        sponsorRows: [
+          [
+            <Card
+              elevation={4}
+              sx={{
+                width: "30%",
+                margin: 2,
+                borderRadius: "10px",
+                overflow: "hidden",
+              }}
+            >
+              <a href="https://balsamiq.com/" target="_blank" rel="noreferrer">
+                <StaticImage
+                  src="./images/sponsors/balsamiq.png"
+                  alt="Balsamiq Logo"
+                />
+              </a>
+            </Card>,
+            <Card
+              elevation={4}
+              sx={{
+                width: "30%",
+                margin: 2,
+                borderRadius: "10px",
+                overflow: "hidden",
+              }}
+            >
+              <StaticImage
+                src="./images/sponsors/under-the-cloche.png"
+                alt="Under The Cloche Logo"
+              />
+            </Card>,
+          ],
+        ],
+      },
+    ],
   },
 }
 
