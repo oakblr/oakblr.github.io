@@ -343,7 +343,11 @@ const siteData = {
                 target="_blank"
                 rel="noreferrer"
               >
-                <StaticImage src="./images/sponsors/hgs.png" alt="HGS Logo" />
+                <StaticImage
+                  src="./images/sponsors/hgs.png"
+                  alt="HGS Logo"
+                  placeholder="blurred"
+                />
               </a>
             </Card>,
           ],
@@ -366,6 +370,7 @@ const siteData = {
                 <StaticImage
                   src="./images/sponsors/balsamiq.png"
                   alt="Balsamiq Logo"
+                  placeholder="blurred"
                 />
               </a>
             </Card>,
@@ -381,6 +386,7 @@ const siteData = {
               <StaticImage
                 src="./images/sponsors/under-the-cloche.png"
                 alt="Under The Cloche Logo"
+                placeholder="blurred"
               />
             </Card>,
           ],
