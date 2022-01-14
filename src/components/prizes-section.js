@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Card, Divider, Typography } from "@mui/material"
-import siteData from "../../site-data"
+import siteData from "../site-data"
 
 function PrizesSection() {
   return (

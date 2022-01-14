@@ -1,7 +1,7 @@
 import * as React from "react"
 import TypeWriter from "./typewriter"
 import "./homepage-typewriter.css"
-import siteData from "../../site-data"
+import siteData from "../site-data"
 import { Box, Card } from "@mui/material"
 
 function HomePageTypewriter() {

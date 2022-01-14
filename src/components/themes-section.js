@@ -8,7 +8,7 @@ import {
   Typography,
 } from "@mui/material"
 import "./themes-section.css"
-import siteData from "../../site-data"
+import siteData from "../site-data"
 
 function ThemesSection() {
   const [expanded, setExpanded] = React.useState(false)

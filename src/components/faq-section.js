@@ -22,7 +22,7 @@ import {
   TimelineOppositeContent,
 } from "@mui/lab"
 import { ExpandLess, ExpandMore } from "@mui/icons-material"
-import siteData from "../../site-data"
+import siteData from "../site-data"
 
 function FaqSection() {
   const [tab, setTab] = React.useState(0)

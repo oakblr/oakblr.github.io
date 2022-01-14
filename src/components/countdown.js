@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Card, Stack, Typography } from "@mui/material"
-import siteData from "../../site-data"
+import siteData from "../site-data"
 
 import glitchImg from "../images/glitch.jpg"
 

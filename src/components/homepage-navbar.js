@@ -13,7 +13,7 @@ import {
   Typography,
 } from "@mui/material"
 import MenuIcon from "@mui/icons-material/Menu"
-import siteData from "../../site-data"
+import siteData from "../site-data"
 
 function HomePageNavBar() {
   const pages = siteData.homepageSections
