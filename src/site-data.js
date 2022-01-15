@@ -394,6 +394,44 @@ const siteData = {
       },
     ],
   },
+  photoArchiveSection: {
+    title: "Photo Archive",
+    years: [
+      {
+        year: "2018",
+        link: "https://photos.app.goo.gl/d1dYMX6xvNrVfUwJ3",
+        image: (
+          <StaticImage
+            src="./images/banners/2018.jpg"
+            alt="2018 Codefest Banner"
+            placeholder="blurred"
+          />
+        ),
+      },
+      {
+        year: "2019",
+        link: "https://photos.app.goo.gl/gGYJ8jutArw5ewnJ7",
+        image: (
+          <StaticImage
+            src="./images/banners/2019.jpg"
+            alt="2019 Codefest Banner"
+            placeholder="blurred"
+          />
+        ),
+      },
+      {
+        year: "2020",
+        link: "https://photos.app.goo.gl/RsQdaypjbmtdctnt8",
+        image: (
+          <StaticImage
+            src="./images/banners/2020.jpg"
+            alt="2020 Codefest Banner"
+            placeholder="blurred"
+          />
+        ),
+      },
+    ],
+  },
 }
 
 export default siteData

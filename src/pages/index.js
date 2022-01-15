@@ -8,8 +8,9 @@ import IntroCard from "../components/intro-card"
 import ThemesSection from "../components/themes-section"
 import PrizesSection from "../components/prizes-section"
 import FaqSection from "../components/faq-section"
-import { Button, Typography } from "@mui/material"
 import SponsorsSection from "../components/sponsors-section"
+import PhotoArchiveSection from "../components/photo-archive-section"
+import { Button, Typography } from "@mui/material"
 
 const IndexPage = () => {
   return (
@@ -30,6 +31,8 @@ const IndexPage = () => {
         <FaqSection />
         <div id="Sponsors" style={{ margin: "20px" }}></div>
         <SponsorsSection />
+        <div id="PhotoArchive" style={{ margin: "20px" }}></div>
+        <PhotoArchiveSection />
         <div style={{ margin: "20px" }}></div>
         <Typography variant="h2">Hello World</Typography>
         <Button>Test</Button>
