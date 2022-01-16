@@ -470,6 +470,23 @@ const siteData = {
       },
     ],
   },
+  footerDetails: {
+    codefestEmail: "oakcodefest@oakridge.in",
+    facebookLink: "https://www.facebook.com/oakcf/",
+    instagramLink: "https://www.instagram.com/oakcodefest/",
+    githubLink: "https://github.com/oakblr",
+    copyrightHolder: "Oakridge Codefest",
+    coreTeamMembers: [
+      "Aarush Mehrotra",
+      "Aditya Lingam",
+      "Divya Vijaykrishnan",
+      "Jahnavi Thejo Prakash",
+      "Pranav Menon",
+      "Pratham Mishra",
+      "Ram Velamuri",
+      "Saanika Gupta",
+    ],
+  },
 }
 
 export default siteData
