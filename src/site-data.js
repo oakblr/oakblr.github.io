@@ -568,6 +568,19 @@ const siteData = {
     },
   ],
   coreTeamPageTitle: "Codefest 2022 Core Team Members",
+  termsPage: {
+    title: "Terms & Conditions",
+    terms: [
+      "No one over the age of 19 is allowed to participate.",
+      "Falsification of age or any other personal information will lead to the immediate disqualification of the malefactor",
+      "Cyberbullying and harassing are strictly prohibited. This includes but is not limited to: Insulting participants or management, sending distasteful messages or images and threatening others.",
+      "The judges' decisions are final.",
+      "The management reserves the right to admission. The management reserves the right to make final decisions regarding disputes that may arise.",
+      "Sponsor awards earned by the participants are given at the sponsors' discretion. The school and the core team are not liable in the event that sponsor prizes are not awarded to the participants.",
+      "Oakridge International reserves all rights to the event and all decision made by Oakridge International are final.",
+      "Violation of these conditions will lead to immediate disqualification.",
+    ],
+  },
 }
 
 export default siteData
