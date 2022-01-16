@@ -476,17 +476,98 @@ const siteData = {
     instagramLink: "https://www.instagram.com/oakcodefest/",
     githubLink: "https://github.com/oakblr",
     copyrightHolder: "Oakridge Codefest",
-    coreTeamMembers: [
-      "Aarush Mehrotra",
-      "Aditya Lingam",
-      "Divya Vijaykrishnan",
-      "Jahnavi Thejo Prakash",
-      "Pranav Menon",
-      "Pratham Mishra",
-      "Ram Velamuri",
-      "Saanika Gupta",
-    ],
   },
+  coreTeamMembers: [
+    {
+      name: "Aarush Mehrotra",
+      image: (
+        <StaticImage
+          src="./images/portraits/aarush.jpg"
+          alt="Portrait of Aarush Mehrotra"
+          placeholder="blurred"
+          aspectRatio={4 / 5}
+        />
+      ),
+    },
+    {
+      name: "Aditya Lingam",
+      image: (
+        <StaticImage
+          src="./images/portraits/aditya.jpg"
+          alt="Portrait of Aditya Lingam"
+          placeholder="blurred"
+          aspectRatio={4 / 5}
+        />
+      ),
+    },
+    {
+      name: "Divya Vijaykrishnan",
+      image: (
+        <StaticImage
+          src="./images/portraits/divya.jpg"
+          alt="Portrait of Divya Vijaykrishnan"
+          placeholder="blurred"
+          aspectRatio={4 / 5}
+        />
+      ),
+    },
+    {
+      name: "Jahnavi Thejo Prakash",
+      image: (
+        <StaticImage
+          src="./images/portraits/jahnavi.jpg"
+          alt="Portrait of Jahnavi Thejo Prakash"
+          placeholder="blurred"
+          aspectRatio={4 / 5}
+        />
+      ),
+    },
+    {
+      name: "Pranav Menon",
+      image: (
+        <StaticImage
+          src="./images/portraits/pranav.jpg"
+          alt="Portrait of Pranav Menon"
+          placeholder="blurred"
+          aspectRatio={4 / 5}
+        />
+      ),
+    },
+    {
+      name: "Pratham Mishra",
+      image: (
+        <StaticImage
+          src="./images/portraits/pratham.jpg"
+          alt="Portrait of Pratham Mishra"
+          placeholder="blurred"
+          aspectRatio={4 / 5}
+        />
+      ),
+    },
+    {
+      name: "Ram Velamuri",
+      image: (
+        <StaticImage
+          src="./images/portraits/ram.jpg"
+          alt="Portrait of Ram Velamuri"
+          placeholder="blurred"
+          aspectRatio={4 / 5}
+        />
+      ),
+    },
+    {
+      name: "Saanika Gupta",
+      image: (
+        <StaticImage
+          src="./images/portraits/saanika.jpg"
+          alt="Portrait of Saanika Gupta"
+          placeholder="blurred"
+          aspectRatio={4 / 5}
+        />
+      ),
+    },
+  ],
+  coreTeamPageTitle: "Codefest 2022 Core Team Members",
 }
 
 export default siteData

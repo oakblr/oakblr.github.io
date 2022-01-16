@@ -81,10 +81,10 @@ function Footer() {
                 columnSpacing={{ xs: 1, sm: 2, md: 3 }}
                 sx={{ my: "6px" }}
               >
-                {siteData.footerDetails.coreTeamMembers.map(name => (
+                {siteData.coreTeamMembers.map(member => (
                   <Grid item xs={6}>
-                    <Typography variant="body1" key={name}>
-                      {name}
+                    <Typography variant="body1" key={member["name"]}>
+                      {member["name"]}
                     </Typography>
                   </Grid>
                 ))}
