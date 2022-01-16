@@ -11,7 +11,7 @@ import FaqSection from "../components/faq-section"
 import SponsorsSection from "../components/sponsors-section"
 import PhotoArchiveSection from "../components/photo-archive-section"
 import EventPhotosSection from "../components/event-photos-section"
-import { Button, Divider, Typography } from "@mui/material"
+import { Divider } from "@mui/material"
 
 const IndexPage = () => {
   return (
@@ -45,8 +45,6 @@ const IndexPage = () => {
         </div>
         <EventPhotosSection />
         <div style={{ margin: "20px" }}></div>
-        <Typography variant="h2">Hello World</Typography>
-        <Button>Test</Button>
       </main>
     </Layout>
   )
