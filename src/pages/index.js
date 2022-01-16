@@ -13,6 +13,8 @@ import PhotoArchiveSection from "../components/photo-archive-section"
 import EventPhotosSection from "../components/event-photos-section"
 import { Divider } from "@mui/material"
 
+// TODO: Replace 'align' attribute of all divs
+// TODO: Add key to all top-level elements in maps
 const IndexPage = () => {
   return (
     <Layout>
