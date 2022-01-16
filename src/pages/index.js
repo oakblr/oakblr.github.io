@@ -10,7 +10,8 @@ import PrizesSection from "../components/prizes-section"
 import FaqSection from "../components/faq-section"
 import SponsorsSection from "../components/sponsors-section"
 import PhotoArchiveSection from "../components/photo-archive-section"
-import { Button, Typography } from "@mui/material"
+import EventPhotosSection from "../components/event-photos-section"
+import { Button, Divider, Typography } from "@mui/material"
 
 const IndexPage = () => {
   return (
@@ -33,6 +34,16 @@ const IndexPage = () => {
         <SponsorsSection />
         <div id="PhotoArchive" style={{ margin: "20px" }}></div>
         <PhotoArchiveSection />
+        <div id="EventPhotos" style={{ margin: "20px" }}>
+          <Divider
+            style={{
+              maxWidth: "960px",
+              width: "calc(80vw - 40px)",
+              margin: "0px auto",
+            }}
+          />
+        </div>
+        <EventPhotosSection />
         <div style={{ margin: "20px" }}></div>
         <Typography variant="h2">Hello World</Typography>
         <Button>Test</Button>

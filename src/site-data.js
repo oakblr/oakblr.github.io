@@ -432,6 +432,44 @@ const siteData = {
       },
     ],
   },
+  eventPhotosSection: {
+    title: undefined,
+    sections: [
+      {
+        title: "Winners of Codefest 2018",
+        image: (
+          <StaticImage
+            src="./images/winners/2018.jpg"
+            alt="2018 Codefest Winners"
+            placeholder="blurred"
+            width={5000}
+          />
+        ),
+      },
+      {
+        title: "Winners of Codefest 2019",
+        image: (
+          <StaticImage
+            src="./images/winners/2019.jpg"
+            alt="2019 Codefest Winners"
+            placeholder="blurred"
+            width={5000}
+          />
+        ),
+      },
+      {
+        title: "Winners of Codefest 2020",
+        image: (
+          <StaticImage
+            src="./images/winners/2020.jpg"
+            alt="2020 Codefest Winners"
+            placeholder="blurred"
+            width={5000}
+          />
+        ),
+      },
+    ],
+  },
 }
 
 export default siteData
