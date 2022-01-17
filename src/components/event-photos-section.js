@@ -13,7 +13,7 @@ function EventPhotosSection() {
           </Typography>
           <Parallax strength={250} bgStyle={{ width: "100vw" }}>
             <Background className="custom-bg">{section.image}</Background>
-            <div style={{ height: "40vh", overflow: "clip" }}></div>
+            <div style={{ height: "28vw", overflow: "clip" }}></div>
           </Parallax>
         </Box>
       ))}

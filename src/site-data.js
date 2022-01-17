@@ -73,7 +73,7 @@ const siteData = {
     description: (
       <>
         Teams are expected to use at least one primary theme for their project
-        but are advised to choose two or more themes. For more infomation
+        but are advised to choose two or more themes. For more information
         regarding the themes please email us at{" "}
         <a href="mailto:oakcodefest@oakridge.in">oakcodefest@oakridge.in</a>
       </>
