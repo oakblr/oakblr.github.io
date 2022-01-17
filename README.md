@@ -1,54 +1,49 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://codefest.oakridge.in">
+    <img alt="Website Icon" src="https://raw.githubusercontent.com/oakblr/oakblr.github.io/main/src/images/icon.png" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  Oakridge Codefest Website
 </h1>
 
-## 🚀 Quick start
+## Usage
 
-1.  **Create a Gatsby site.**
+```shell
+# clone repository
+git clone https://github.com/oakblr/oakblr.github.io.git
+# install dependencies
+npm i
+# start dev server
+npm run develop
+```
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## Publishing Changes
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+Once done with any changes, if you have the required permissions and are a part of this organization, publish your changes to the website.
+```shell
+# publish changes
+npm run deploy
+```
 
-2.  **Start developing.**
+## Site Data File
 
-    Navigate into your new site’s directory and start it up.
+To allow for easy management of the website, a file called [`site-data.js`](https://github.com/oakblr/oakblr.github.io/blob/main/src/site-data.js) exists in the `src` folder. If you need to change any content/text/images on the site, you would most likely be able do it by just changing the respective value(s) in this file.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+## Learn more
 
-3.  **Open the code and start customizing!**
+In case you're new to Gatsby/React/NodeJS, here are a few resources:
 
-    Your site is now running at http://localhost:8000!
+  - [Web Dev Course](https://www.freecodecamp.org/learn/responsive-web-design/)
+    
+  - [Node Introduction](https://www.youtube.com/watch?v=ENrzD9HAZK4)
+    
+  - [React Guide](https://reactjs.org/tutorial/tutorial.html)
+    
+  - [Gatsby Introduction](https://www.youtube.com/watch?v=GuvAMcsoreI)
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+  - [Gatsby Tutorial](https://www.gatsbyjs.com/docs/tutorial/)
 
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+  - [Gatsby Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/)
+    
+  - [MUI Documentation](https://mui.com/getting-started/usage/)
