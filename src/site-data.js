@@ -28,7 +28,7 @@ const typewriterContent = (
 <span className="var-highlight">Oakridge Codefest</span> 2022 = {"{"} {"\n"}
 type: <span className="string-highlight">'24 hour Virtual Hackathon'</span>, {"\n"}
 date: <span className="string-highlight">'22nd-23rd Jan 2022'</span>, {"\n"}
-location: <span className="string-highlight">'Online(or not perhaps?)'</span>, {"\n"}
+location: <span className="string-highlight">'Online'</span>, {"\n"}
 themes:[ {"\n"}
 <span className="string-highlight">'STEM Simulation'</span>, {"\n"}
 <span className="string-highlight">'Education'</span>, {"\n"}
