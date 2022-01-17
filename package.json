@@ -12,7 +12,7 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && echo 'codefest.oakridge.in' > ./public/CNAME && gh-pages -d public",
     "clean": "gatsby clean"
   },
   "dependencies": {
