@@ -366,23 +366,6 @@ const siteData = {
                 overflow: "hidden",
               }}
             >
-              <a href="https://progate.com/" target="_blank" rel="noreferrer">
-                <StaticImage
-                  src="./images/sponsors/progate.png"
-                  alt="Progate Logo"
-                  placeholder="blurred"
-                />
-              </a>
-            </Card>,
-            <Card
-              elevation={4}
-              sx={{
-                width: "25%",
-                margin: 2,
-                borderRadius: "10px",
-                overflow: "hidden",
-              }}
-            >
               <a href="https://balsamiq.com/" target="_blank" rel="noreferrer">
                 <StaticImage
                   src="./images/sponsors/balsamiq.png"
@@ -406,6 +389,23 @@ const siteData = {
                 placeholder="blurred"
               />
             </Card>,
+          <Card
+            elevation={4}
+            sx={{
+              width: "25%",
+              margin: 2,
+              borderRadius: "10px",
+              overflow: "hidden",
+            }}
+          >
+            <a href="https://progate.com/" target="_blank" rel="noreferrer">
+              <StaticImage
+                src="./images/sponsors/progate.png"
+                alt="Progate Logo"
+                placeholder="blurred"
+              />
+            </a>
+          </Card>,
           ],
         ],
       },
