@@ -479,11 +479,44 @@ const siteData = {
   },
   coreTeamMembers: [
     {
+      name: "Saanika Gupta",
+      image: (
+        <StaticImage
+          src="./images/portraits/saanika.jpg"
+          alt="Portrait of Saanika Gupta"
+          placeholder="blurred"
+          aspectRatio={4 / 5}
+        />
+      ),
+    },
+    {
       name: "Aarush Mehrotra",
       image: (
         <StaticImage
           src="./images/portraits/aarush.jpg"
           alt="Portrait of Aarush Mehrotra"
+          placeholder="blurred"
+          aspectRatio={4 / 5}
+        />
+      ),
+    },
+    {
+      name: "Pranav Menon",
+      image: (
+        <StaticImage
+          src="./images/portraits/pranav.jpg"
+          alt="Portrait of Pranav Menon"
+          placeholder="blurred"
+          aspectRatio={4 / 5}
+        />
+      ),
+    },
+    {
+      name: "Ram Velamuri",
+      image: (
+        <StaticImage
+          src="./images/portraits/ram.jpg"
+          alt="Portrait of Ram Velamuri"
           placeholder="blurred"
           aspectRatio={4 / 5}
         />
@@ -523,44 +556,11 @@ const siteData = {
       ),
     },
     {
-      name: "Pranav Menon",
-      image: (
-        <StaticImage
-          src="./images/portraits/pranav.jpg"
-          alt="Portrait of Pranav Menon"
-          placeholder="blurred"
-          aspectRatio={4 / 5}
-        />
-      ),
-    },
-    {
       name: "Pratham Mishra",
       image: (
         <StaticImage
           src="./images/portraits/pratham.jpg"
           alt="Portrait of Pratham Mishra"
-          placeholder="blurred"
-          aspectRatio={4 / 5}
-        />
-      ),
-    },
-    {
-      name: "Ram Velamuri",
-      image: (
-        <StaticImage
-          src="./images/portraits/ram.jpg"
-          alt="Portrait of Ram Velamuri"
-          placeholder="blurred"
-          aspectRatio={4 / 5}
-        />
-      ),
-    },
-    {
-      name: "Saanika Gupta",
-      image: (
-        <StaticImage
-          src="./images/portraits/saanika.jpg"
-          alt="Portrait of Saanika Gupta"
           placeholder="blurred"
           aspectRatio={4 / 5}
         />
