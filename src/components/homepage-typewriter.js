@@ -30,7 +30,7 @@ function HomePageTypewriter() {
               fontWeight: 700,
             }}
           >
-            <TypeWriter typing={1} maxDelay={18} minDelay={5}>
+            <TypeWriter typing={1} maxDelay={18} minDelay={15}>
               {siteData.typewriterContent}
             </TypeWriter>
           </div>
@@ -52,7 +52,7 @@ function HomePageTypewriter() {
             }}
           >
             <div style={{ opacity: 0.0 }}>
-              <TypeWriter typing={1} maxDelay={17} minDelay={5}>
+              <TypeWriter typing={1} maxDelay={17} minDelay={15}>
                 {siteData.typewriterContent}
               </TypeWriter>
             </div>
