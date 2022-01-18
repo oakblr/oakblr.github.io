@@ -139,8 +139,10 @@ function HomePageNavBar() {
               target="_blank"
               rel="noreferrer"
               sx={{
+                width: 300,
                 mx: 0.5,
                 my: 2,
+                px: 12,
                 display: "block",
               }}
               variant="contained"
