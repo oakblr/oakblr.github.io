@@ -1,7 +1,7 @@
 import * as React from "react"
 
-import webmVideo from "../assets/garbage.webm"
-import mp4Video from "../assets/garbage.mp4"
+import webmVideo from "../assets/cf-banner.webm"
+import mp4Video from "../assets/cf-banner.mp4"
 
 function HomePageVideo({ videoHeight, height }) {
   return (
@@ -23,7 +23,7 @@ function HomePageVideo({ videoHeight, height }) {
           position: "absolute",
           left: "50%",
           transform: "translateX(-50%)",
-          height: `${videoHeight * 200}vh`,
+          height: `${videoHeight * 100}vh`,
           width: "100%",
           objectFit: "cover",
           zIndex: -1,
