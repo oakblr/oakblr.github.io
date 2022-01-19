@@ -360,7 +360,7 @@ const siteData = {
             <Card
               elevation={4}
               sx={{
-                width: "25%",
+                width: "20%",
                 margin: 2,
                 borderRadius: "10px",
                 overflow: "hidden",
@@ -377,7 +377,7 @@ const siteData = {
             <Card
               elevation={4}
               sx={{
-                width: "25%",
+                width: "20%",
                 margin: 2,
                 borderRadius: "10px",
                 overflow: "hidden",
@@ -389,23 +389,40 @@ const siteData = {
                 placeholder="blurred"
               />
             </Card>,
-          <Card
-            elevation={4}
-            sx={{
-              width: "25%",
-              margin: 2,
-              borderRadius: "10px",
-              overflow: "hidden",
-            }}
-          >
-            <a href="https://progate.com/" target="_blank" rel="noreferrer">
-              <StaticImage
-                src="./images/sponsors/progate.png"
-                alt="Progate Logo"
-                placeholder="blurred"
-              />
-            </a>
-          </Card>,
+            <Card
+              elevation={4}
+              sx={{
+                width: "20%",
+                margin: 2,
+                borderRadius: "10px",
+                overflow: "hidden",
+              }}
+            >
+              <a href="https://progate.com/" target="_blank" rel="noreferrer">
+                <StaticImage
+                  src="./images/sponsors/progate.png"
+                  alt="Progate Logo"
+                  placeholder="blurred"
+                />
+              </a>
+            </Card>,
+            <Card
+              elevation={4}
+              sx={{
+                width: "20%",
+                margin: 2,
+                borderRadius: "34px",
+                overflow: "hidden",
+              }}
+            >
+              <a href="https://modfy.video/" target="_blank" rel="noreferrer">
+                <StaticImage
+                  src="./images/sponsors/modfy.png"
+                  alt="Modfy Logo"
+                  placeholder="blurred"
+                />
+              </a>
+            </Card>,
           ],
         ],
       },
