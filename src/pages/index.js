@@ -20,7 +20,7 @@ const IndexPage = () => {
     <Layout>
       <HomePageNavBar />
       <main align="center">
-        <HomePageVideo videoHeight={0.5} height={0.4} />
+        <HomePageVideo videoHeight={0.85} height={0.4} />
         <HomePageTypewriter />
         <div style={{ margin: "25px" }}></div>
         <Countdown />
