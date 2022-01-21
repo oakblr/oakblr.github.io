@@ -242,7 +242,7 @@ const siteData = {
               <p>
                 Any language, technology stack, or library can be used to create
                 your solutions, except drag and drop software like MIT App
-                Inventor.
+                Inventor. For the STEM Simulation theme, tools such as shader graphs (provided by tools like Blender) are not allowed. 
               </p>
             ),
           },
