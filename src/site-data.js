@@ -43,8 +43,9 @@ themes:[ {"\n"}
 const siteData = {
   homepageSections: ["Themes", "Prizes", "FAQ", "Sponsors"],
   registerButton: {
-    text: "Register Now",
+    text: "Registrations Closed",
     url: "https://forms.gle/7qxxhaCbP16mW7ez5",
+    disabled: true,
   },
   typewriterContent: typewriterContent,
   codefestEndDate: "January 22 2022 11:00:00 GMT+0530",
@@ -242,7 +243,8 @@ const siteData = {
               <p>
                 Any language, technology stack, or library can be used to create
                 your solutions, except drag and drop software like MIT App
-                Inventor. For the STEM Simulation theme, tools such as shader graphs (provided by tools like Blender) are not allowed. 
+                Inventor. For the STEM Simulation theme, tools such as shader
+                graphs (provided by tools like Blender) are not allowed.
               </p>
             ),
           },

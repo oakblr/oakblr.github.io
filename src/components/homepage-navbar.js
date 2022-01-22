@@ -138,11 +138,12 @@ function HomePageNavBar() {
               href={siteData.registerButton.url}
               target="_blank"
               rel="noreferrer"
+              disabled={siteData.registerButton.disabled}
               sx={{
                 width: 300,
                 mx: 0.5,
                 my: 2,
-                px: 12,
+                textAlign: "center",
                 display: "block",
               }}
               variant="contained"
