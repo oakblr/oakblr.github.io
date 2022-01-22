@@ -43,8 +43,9 @@ themes:[ {"\n"}
 const siteData = {
   homepageSections: ["Themes", "Prizes", "FAQ", "Sponsors"],
   registerButton: {
-    text: "Register Now",
+    text: "Registration Closed",
     url: "https://forms.gle/7qxxhaCbP16mW7ez5",
+    disabled: true,
   },
   typewriterContent: typewriterContent,
   codefestEndDate: "January 22 2022 11:00:00 GMT+0530",
