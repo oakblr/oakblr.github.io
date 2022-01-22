@@ -40,7 +40,13 @@ themes:[ {"\n"}
 </pre>
 )
 
+const juniorSiteData = {
+  title: "Coming Soon",
+  description: "Oakridge Codefest is coming soon to children from grades 3-5.",
+}
+
 const siteData = {
+  juniorSiteData: juniorSiteData,
   homepageSections: ["Themes", "Prizes", "FAQ", "Sponsors"],
   registerButton: {
     text: "Registrations Closed",
