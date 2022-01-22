@@ -88,7 +88,7 @@ const siteData = {
               This exciting new theme will give participants the opportunity to
               design a simulation based on STEM principles. The project can take
               multiple directions, including but not limited to data science,
-              physics, economics, and more
+              physics, economics, and more.
             </p>
           ),
           example: (
