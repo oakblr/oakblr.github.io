@@ -103,6 +103,14 @@ function Footer() {
                 >
                   aklingam7
                 </a>
+                {" & "}
+                <a
+                  href="https://github.com/EnderDuckLikesCoding"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Pranav
+                </a>
               </Typography>
             </Grid>
           </Grid>
