@@ -391,11 +391,13 @@ const siteData = {
                 overflow: "hidden",
               }}
             >
+              <a href="https://www.instagram.com/underthecloche/" target="_blank" rel="noreferrer">
               <StaticImage
                 src="./images/sponsors/under-the-cloche.png"
                 alt="Under The Cloche Logo"
                 placeholder="blurred"
               />
+              </a>
             </Card>,
             <Card
               elevation={4}
