@@ -25,12 +25,12 @@ import { StaticImage } from "gatsby-plugin-image"
 // prettier-ignore
 const typewriterContent = (
 <pre style={{whiteSpace: "pre-line"}}>
-<span className="var-highlight">Oakridge Codefest</span> 2022 = {"{"} {"\n"}
+<span className="var-highlight">Oakridge Codefest</span> 2023 = {"{"} {"\n"}
 type: <span className="string-highlight">'24 hour Virtual Hackathon'</span>, {"\n"}
-date: <span className="string-highlight">'22nd-23rd Jan 2022'</span>, {"\n"}
-location: <span className="string-highlight">'Online'</span>, {"\n"}
+date: <span className="string-highlight">'Upcoming Next Year'</span>, {"\n"}
+location: <span className="string-highlight">'Oakridge International School Bengaluru'</span>, {"\n"}
 themes:[ {"\n"}
-<span className="string-highlight">'STEM Simulation'</span>, {"\n"}
+<span className="string-highlight">'Transport & Infrastructure'</span>, {"\n"}
 <span className="string-highlight">'Education'</span>, {"\n"}
 <span className="string-highlight">'Environmental Sustainability'</span>, {"\n"}
 <span className="string-highlight">'Healthcare'</span>,  {"\n"}
@@ -49,12 +49,12 @@ const siteData = {
   juniorSiteData: juniorSiteData,
   homepageSections: ["Themes", "Prizes", "FAQ", "Sponsors"],
   registerButton: {
-    text: "Registrations Closed",
+    text: "Registrations Open Soon",
     url: "https://forms.gle/7qxxhaCbP16mW7ez5",
     disabled: true,
   },
   typewriterContent: typewriterContent,
-  codefestEndDate: "January 22 2022 11:00:00 GMT+0530",
+  codefestEndDate: "February 19 2023 11:00:00 GMT+0530",
   introCardSections: [
     {
       icon: <Tungsten sx={{ fontSize: "54px" }} />,
@@ -76,7 +76,7 @@ const siteData = {
     },
   ],
   themesSection: {
-    title: "Themes for Oakridge Codefest (2022)",
+    title: "Themes for Oakridge Codefest (2023)",
     description: (
       <>
         Teams are expected to use at least one primary theme for their project
@@ -88,19 +88,16 @@ const siteData = {
     themes: [
       [
         {
-          name: "STEM Simulation",
+          name: "Transport & Infrastructure",
           icon: <Biotech />,
           description: (
             <p>
-              This exciting new theme will give participants the opportunity to
-              design a simulation based on STEM principles. The project can take
-              multiple directions, including but not limited to data science,
-              physics, economics, and more
+              Transport and Infrastructure
             </p>
           ),
           example: (
             <p>
-              Examples: Fluid simulation, circuit builder, model solar system
+              Examples: Carpool Ride-hailing App
             </p>
           ),
         },
@@ -248,9 +245,8 @@ const siteData = {
             content: (
               <p>
                 Any language, technology stack, or library can be used to create
-                your solutions, except drag and drop software like MIT App
-                Inventor. For the STEM Simulation theme, tools such as shader
-                graphs (provided by tools like Blender) are not allowed.
+                your solutions, except drag and drop software like Scratch or MIT App
+                Inventor.
               </p>
             ),
           },
@@ -611,7 +607,7 @@ const siteData = {
       ),
     },
   ],
-  coreTeamPageTitle: "Codefest 2022 Core Team Members",
+  coreTeamPageTitle: "Codefest 2023 Core Team Members",
   termsPage: {
     title: "Terms & Conditions",
     terms: [
