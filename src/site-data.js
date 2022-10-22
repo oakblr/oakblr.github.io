@@ -92,12 +92,12 @@ const siteData = {
           icon: <Biotech />,
           description: (
             <p>
-              Transport and Infrastructure
+              To be provided
             </p>
           ),
           example: (
             <p>
-              Examples: Carpool Ride-hailing App
+              Examples: -
             </p>
           ),
         },
