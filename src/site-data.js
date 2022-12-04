@@ -90,16 +90,8 @@ const siteData = {
         {
           name: "Transport & Infrastructure",
           icon: <Biotech />,
-          description: (
-            <p>
-              To be provided
-            </p>
-          ),
-          example: (
-            <p>
-              Examples: -
-            </p>
-          ),
+          description: <p>To be provided</p>,
+          example: <p>Examples: -</p>,
         },
         {
           name: "Education",
@@ -245,8 +237,8 @@ const siteData = {
             content: (
               <p>
                 Any language, technology stack, or library can be used to create
-                your solutions, except drag and drop software like Scratch or MIT App
-                Inventor.
+                your solutions, except drag and drop software like Scratch or
+                MIT App Inventor.
               </p>
             ),
           },
@@ -387,12 +379,16 @@ const siteData = {
                 overflow: "hidden",
               }}
             >
-              <a href="https://www.instagram.com/underthecloche/" target="_blank" rel="noreferrer">
-              <StaticImage
-                src="./images/sponsors/under-the-cloche.png"
-                alt="Under The Cloche Logo"
-                placeholder="blurred"
-              />
+              <a
+                href="https://www.instagram.com/underthecloche/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <StaticImage
+                  src="./images/sponsors/under-the-cloche.png"
+                  alt="Under The Cloche Logo"
+                  placeholder="blurred"
+                />
               </a>
             </Card>,
             <Card
@@ -519,44 +515,11 @@ const siteData = {
   },
   coreTeamMembers: [
     {
-      name: "Saanika Gupta",
+      name: "Aagney Gorthi",
       image: (
         <StaticImage
-          src="./images/portraits/saanika.jpg"
-          alt="Portrait of Saanika Gupta"
-          placeholder="blurred"
-          aspectRatio={4 / 5}
-        />
-      ),
-    },
-    {
-      name: "Aarush Mehrotra",
-      image: (
-        <StaticImage
-          src="./images/portraits/aarush.jpg"
-          alt="Portrait of Aarush Mehrotra"
-          placeholder="blurred"
-          aspectRatio={4 / 5}
-        />
-      ),
-    },
-    {
-      name: "Pranav Menon",
-      image: (
-        <StaticImage
-          src="./images/portraits/pranav.jpg"
-          alt="Portrait of Pranav Menon"
-          placeholder="blurred"
-          aspectRatio={4 / 5}
-        />
-      ),
-    },
-    {
-      name: "Ram Velamuri",
-      image: (
-        <StaticImage
-          src="./images/portraits/ram.jpg"
-          alt="Portrait of Ram Velamuri"
+          src="./images/portraits/aagney.jpg"
+          alt="Portrait of Aagney Gorthi"
           placeholder="blurred"
           aspectRatio={4 / 5}
         />
@@ -574,17 +537,6 @@ const siteData = {
       ),
     },
     {
-      name: "Divya Vijaykrishnan",
-      image: (
-        <StaticImage
-          src="./images/portraits/divya.jpg"
-          alt="Portrait of Divya Vijaykrishnan"
-          placeholder="blurred"
-          aspectRatio={4 / 5}
-        />
-      ),
-    },
-    {
       name: "Jahnavi Thejo Prakash",
       image: (
         <StaticImage
@@ -596,11 +548,44 @@ const siteData = {
       ),
     },
     {
-      name: "Pratham Mishra",
+      name: "Pranav Menon",
       image: (
         <StaticImage
-          src="./images/portraits/pratham.jpg"
-          alt="Portrait of Pratham Mishra"
+          src="./images/portraits/pranav.jpg"
+          alt="Portrait of Pranav Menon"
+          placeholder="blurred"
+          aspectRatio={4 / 5}
+        />
+      ),
+    },
+    {
+      name: "Raviish Panicker",
+      image: (
+        <StaticImage
+          src="./images/portraits/raviish.jpg"
+          alt="Portrait of Raviish Panicker"
+          placeholder="blurred"
+          aspectRatio={4 / 5}
+        />
+      ),
+    },
+    {
+      name: "Saanika Gupta",
+      image: (
+        <StaticImage
+          src="./images/portraits/saanika.jpg"
+          alt="Portrait of Saanika Gupta"
+          placeholder="blurred"
+          aspectRatio={4 / 5}
+        />
+      ),
+    },
+    {
+      name: "Siddharth Satish",
+      image: (
+        <StaticImage
+          src="./images/portraits/siddharth.jpg"
+          alt="Portrait of Siddharth Satish"
           placeholder="blurred"
           aspectRatio={4 / 5}
         />
