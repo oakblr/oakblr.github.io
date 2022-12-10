@@ -507,7 +507,7 @@ const siteData = {
     ],
   },
   footerDetails: {
-    codefestEmail: "oakcodefest@oakridge.in",
+    codefestEmail: "codefest@oakridge.in",
     facebookLink: "https://www.facebook.com/oakcf/",
     instagramLink: "https://www.instagram.com/oakcodefest/",
     githubLink: "https://github.com/oakblr",
