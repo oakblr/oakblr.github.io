@@ -2,7 +2,7 @@ import * as React from "react"
 import { Card } from "@mui/material"
 import { Tungsten, Style, EmojiEvents } from "@mui/icons-material"
 import {
-  Biotech,
+  DirectionsBus,
   Book,
   LocalFlorist,
   LocalHospital,
@@ -89,7 +89,7 @@ const siteData = {
       [
         {
           name: "Transport & Infrastructure",
-          icon: <Biotech />,
+          icon: <DirectionsBus />,
           description: <p>To be provided</p>,
           example: <p>Examples: -</p>,
         },
@@ -507,7 +507,7 @@ const siteData = {
     ],
   },
   footerDetails: {
-    codefestEmail: "oakcodefest@oakridge.in",
+    codefestEmail: "codefest@oakridge.in",
     facebookLink: "https://www.facebook.com/oakcf/",
     instagramLink: "https://www.instagram.com/oakcodefest/",
     githubLink: "https://github.com/oakblr",
