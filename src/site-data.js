@@ -284,7 +284,7 @@ const siteData = {
         {
           title: "Registration Opens",
           icon: <ContactMail />,
-          date: "19th of December",
+          date: "23th of December",
           description: (
             <p>
               Participants are expected to sign up for the event and submit a
@@ -295,7 +295,7 @@ const siteData = {
         {
           title: "Registration Closes",
           icon: <PendingActions />,
-          date: "21st of January",
+          date: "20st of January",
           description: (
             <p>
               Participants will not be allowed to register after this date. All
@@ -307,7 +307,7 @@ const siteData = {
         {
           title: "Event Starts",
           icon: <Event />,
-          date: "22th of January",
+          date: "21th of January",
           description: (
             <p>
               All registered participants will receive an email a day before the
