@@ -50,7 +50,7 @@ const siteData = {
   homepageSections: ["Themes", "Prizes", "FAQ", "Sponsors"],
   registerButton: {
     text: "Register Now",
-    url: "image.png",
+    url: "https://forms.gle/CJ3CEwH33nBvUvgeA",
     disabled: false,
   },
   typewriterContent: typewriterContent,
