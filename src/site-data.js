@@ -203,7 +203,7 @@ const siteData = {
             icon: <MonetizationOn />,
             content: (
               <p>
-                The ₹300 will cover your access to the virtual venue and all
+                The ₹400 will cover your access to the virtual venue and all
                 other platforms that we'll use to communicate with participants
                 and would make you eligible for the rewards provided by our
                 sponsors. Proceeds from the Oakridge Codefest will contribute to
