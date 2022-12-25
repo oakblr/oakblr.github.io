@@ -27,7 +27,7 @@ const typewriterContent = (
 <pre style={{whiteSpace: "pre-line"}}>
 <span className="var-highlight">Oakridge Codefest</span> 2023 = {"{"} {"\n"}
 type: <span className="string-highlight">'24 hour Virtual Hackathon'</span>, {"\n"}
-date: <span className="string-highlight">'Upcoming Next Year'</span>, {"\n"}
+date: <span className="string-highlight">'21st and 22nd of January, 2023'</span>, {"\n"}
 location: <span className="string-highlight">'Oakridge International School Bengaluru'</span>, {"\n"}
 themes:[ {"\n"}
 <span className="string-highlight">'Transport & Infrastructure'</span>, {"\n"}
@@ -49,9 +49,9 @@ const siteData = {
   juniorSiteData: juniorSiteData,
   homepageSections: ["Themes", "Prizes", "FAQ", "Sponsors"],
   registerButton: {
-    text: "Registrations Open Soon",
-    url: "https://forms.gle/7qxxhaCbP16mW7ez5",
-    disabled: true,
+    text: "Register Now",
+    url: "image.png",
+    disabled: false,
   },
   typewriterContent: typewriterContent,
   codefestEndDate: "February 19 2023 11:00:00 GMT+0530",
@@ -91,7 +91,7 @@ const siteData = {
           name: "Transport & Infrastructure",
           icon: <DirectionsBus />,
           description: <p>To be provided</p>,
-          example: <p>Examples: -</p>,
+          example: <p>Examples: Ride Sharing Application, Road Safety Reporting Application</p>,
         },
         {
           name: "Education",
@@ -190,12 +190,11 @@ const siteData = {
             ),
           },
           {
-            title: "What platform will Codefest be held on?",
+            title: "Where will the hackathon take place?",
             icon: <Laptop />,
             content: (
               <p>
-                The opening and closing ceremonies will be hosted on Zoom while
-                the rest of the event will be held on Microsoft Teams.
+                The Codefest is an in-person event and will be held at Oakridge International School, Bangalore.
               </p>
             ),
           },
@@ -284,7 +283,7 @@ const siteData = {
         {
           title: "Registration Opens",
           icon: <ContactMail />,
-          date: "23th of December",
+          date: "26th of December",
           description: (
             <p>
               Participants are expected to sign up for the event and submit a
@@ -295,7 +294,7 @@ const siteData = {
         {
           title: "Registration Closes",
           icon: <PendingActions />,
-          date: "20st of January",
+          date: "20th of January",
           description: (
             <p>
               Participants will not be allowed to register after this date. All
@@ -307,7 +306,7 @@ const siteData = {
         {
           title: "Event Starts",
           icon: <Event />,
-          date: "21th of January",
+          date: "21st of January",
           description: (
             <p>
               All registered participants will receive an email a day before the
