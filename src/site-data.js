@@ -54,7 +54,7 @@ const siteData = {
     disabled: false,
   },
   typewriterContent: typewriterContent,
-  codefestEndDate: "February 19 2023 11:00:00 GMT+0530",
+  codefestEndDate: "January 21 2023 11:00:00 GMT+0530",
   introCardSections: [
     {
       icon: <Tungsten sx={{ fontSize: "54px" }} />,

@@ -30,6 +30,10 @@ function HomePageNavBar() {
     window.scrollTo({ top: p, behavior: "smooth" })
   }
 
+  const goToRegistrationForm = () => {
+    window.location = "https://forms.gle/CJ3CEwH33nBvUvgeA";
+  }
+
   return (
     <AppBar position="static">
       <Container maxWidth="xl">
@@ -88,6 +92,15 @@ function HomePageNavBar() {
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
+              <MenuItem
+                  key="Register"
+                  onClick={() => {
+                    handleCloseNavMenu()
+                    goToRegistrationForm()
+                  }}
+                >
+                  <Typography textAlign="center">Register</Typography>
+                </MenuItem>
             </Menu>
           </Box>
           <Box
