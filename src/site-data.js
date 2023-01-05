@@ -317,39 +317,38 @@ const siteData = {
   sponsorsSection: {
     title: "Event Sponsors",
     sponsorGroups: [
+      // {
+      //   title: <Typography variant="h4">Title Sponsor</Typography>,
+      //   sponsorRows: [
+      //     [
+      //       <Card
+      //         elevation={4}
+      //         sx={{
+      //           width: "70%",
+      //           margin: 2,
+      //           borderRadius: "10px",
+      //           overflow: "hidden",
+      //         }}
+      //       >
+      //         <a
+      //           href="https://www.teamhgs.com/"
+      //           target="_blank"
+      //           rel="noreferrer"
+      //         >
+      //           <StaticImage
+      //             src="./images/sponsors/hgs.png"
+      //             alt="HGS Logo"
+      //             placeholder="blurred"
+      //           />
+      //         </a>
+      //       </Card>,
+      //     ],
+      //   ],
+      // },
       {
-        title: <Typography variant="h4">Title Sponsor</Typography>,
+        title: <Typography variant="h5">Financial Partners</Typography>,
         sponsorRows: [
-          [
-            <Card
-              elevation={4}
-              sx={{
-                width: "70%",
-                margin: 2,
-                borderRadius: "10px",
-                overflow: "hidden",
-              }}
-            >
-              <a
-                href="https://www.teamhgs.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <StaticImage
-                  src="./images/sponsors/hgs.png"
-                  alt="HGS Logo"
-                  placeholder="blurred"
-                />
-              </a>
-            </Card>,
-          ],
-        ],
-      },
-      {
-        title: <Typography variant="h5">In-kind Partners</Typography>,
-        sponsorRows: [
-          [
-            <Card
+          <Card
               elevation={4}
               sx={{
                 width: "20%",
@@ -358,14 +357,20 @@ const siteData = {
                 overflow: "hidden",
               }}
             >
-              <a href="https://balsamiq.com/" target="_blank" rel="noreferrer">
+              <a href="https://dhiway.com/" target="_blank" rel="noreferrer">
                 <StaticImage
-                  src="./images/sponsors/balsamiq.png"
-                  alt="Balsamiq Logo"
+                  src="./images/sponsors/dhiway.jfif"
+                  alt="Modfy Logo"
                   placeholder="blurred"
                 />
               </a>
-            </Card>,
+            </Card>
+        ]
+      },
+      {
+        title: <Typography variant="h5">In-kind Partners</Typography>,
+        sponsorRows: [
+          [
             <Card
               elevation={4}
               sx={{
@@ -383,23 +388,6 @@ const siteData = {
                 <StaticImage
                   src="./images/sponsors/under-the-cloche.png"
                   alt="Under The Cloche Logo"
-                  placeholder="blurred"
-                />
-              </a>
-            </Card>,
-            <Card
-              elevation={4}
-              sx={{
-                width: "20%",
-                margin: 2,
-                borderRadius: "10px",
-                overflow: "hidden",
-              }}
-            >
-              <a href="https://progate.com/" target="_blank" rel="noreferrer">
-                <StaticImage
-                  src="./images/sponsors/progate.png"
-                  alt="Progate Logo"
                   placeholder="blurred"
                 />
               </a>
