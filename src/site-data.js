@@ -26,7 +26,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const typewriterContent = (
 <pre style={{whiteSpace: "pre-line"}}>
 <span className="var-highlight">Oakridge Codefest</span> 2023 = {"{"} {"\n"}
-type: <span className="string-highlight">'24 hour Virtual Hackathon'</span>, {"\n"}
+type: <span className="string-highlight">'24 hour Overnight Hackathon'</span>, {"\n"}
 date: <span className="string-highlight">'21st and 22nd of January, 2023'</span>, {"\n"}
 location: <span className="string-highlight">'Oakridge International School Bengaluru'</span>, {"\n"}
 themes:[ {"\n"}
@@ -203,11 +203,8 @@ const siteData = {
             icon: <MonetizationOn />,
             content: (
               <p>
-                The ₹400 will cover your access to the virtual venue and all
-                other platforms that we'll use to communicate with participants
-                and would make you eligible for the rewards provided by our
-                sponsors. Proceeds from the Oakridge Codefest will contribute to
-                a fund for a donation to charity.
+                The ₹400 will cover your snacks, accommodation, eligibility
+                for the rewards provided by our sponsors.
               </p>
             ),
           },
