@@ -346,46 +346,52 @@ const siteData = {
     title: "Event Sponsors",
     sponsorGroups: [
       {
-        title: <Typography variant="h5">Financial Partners</Typography>,
+        title: (
+          <Typography variant="h3" sx={{ marginBottom: "12px" }}>
+            Financial Partners
+          </Typography>
+        ),
         sponsorRows: [
-          <Card
-            elevation={4}
-            sx={{
-              width: "20%",
-              margin: 2,
-              borderRadius: "10px",
-              overflow: "hidden",
-            }}
-          >
-            <a href="https://oakridge.com/" target="_blank" rel="noreferrer">
-              <StaticImage
-                src="./images/sponsors/oakridge.png"
-                alt="Oakridge Logo"
-                placeholder="blurred"
-              />
-            </a>
-          </Card>,
-          <Card
-            elevation={4}
-            sx={{
-              width: "20%",
-              margin: 2,
-              borderRadius: "10px",
-              overflow: "hidden",
-            }}
-          >
-            <a href="https://dhiway.com/" target="_blank" rel="noreferrer">
-              <StaticImage
-                src="./images/sponsors/dhiway.png"
-                alt="Dhiway Logo"
-                placeholder="blurred"
-              />
-            </a>
-          </Card>,
+          [
+            <Card
+              elevation={4}
+              sx={{
+                width: "25%",
+                margin: 2,
+                borderRadius: "10px",
+                overflow: "hidden",
+              }}
+            >
+              <a href="https://oakridge.com/" target="_blank" rel="noreferrer">
+                <StaticImage
+                  src="./images/sponsors/oakridge.png"
+                  alt="Oakridge Logo"
+                  placeholder="blurred"
+                />
+              </a>
+            </Card>,
+            <Card
+              elevation={4}
+              sx={{
+                width: "25%",
+                margin: 2,
+                borderRadius: "10px",
+                overflow: "hidden",
+              }}
+            >
+              <a href="https://dhiway.com/" target="_blank" rel="noreferrer">
+                <StaticImage
+                  src="./images/sponsors/dhiway.png"
+                  alt="Dhiway Logo"
+                  placeholder="blurred"
+                />
+              </a>
+            </Card>,
+          ],
         ],
       },
       {
-        title: <Typography variant="h5">In-kind Partners</Typography>,
+        title: <Typography variant="h4">In-kind Partners</Typography>,
         sponsorRows: [
           [
             <Card
