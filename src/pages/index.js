@@ -32,6 +32,8 @@ const IndexPage = () => {
         <PrizesSection />
         <div id="FAQ" style={{ margin: "20px" }}></div>
         <FaqSection />
+        <div id="Sponsors" style={{ margin: "20px" }}></div>
+        <SponsorsSection />
         <div id="PhotoArchive" style={{ margin: "20px" }}></div>
         <PhotoArchiveSection />
         <div id="EventPhotos" style={{ margin: "20px" }}>
