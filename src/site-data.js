@@ -289,6 +289,17 @@ const siteData = {
           ),
         },
         {
+          title: "Early Bird Registrations close",
+          icon: <PendingActions />,
+          date: "11th of January",
+          description: (
+            <p>
+              The early bird registration period will end on the 11th. After this, the registration prices will increase.  
+            </p>
+          ),
+        },
+
+        {
           title: "Registration Closes",
           icon: <PendingActions />,
           date: "20th of January",
@@ -311,6 +322,17 @@ const siteData = {
             </p>
           ),
         },
+        {
+          title: "Event Ends",
+          icon: <Event />,
+          date: "22nd of January",
+          description: (
+            <p>
+              On this day, the event will end. Shortlisted teams will get the chance to present their projects to the judges, after which the winners will be announced.
+            </p>
+          ),
+        },
+
       ],
     },
   },
