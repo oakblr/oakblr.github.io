@@ -281,7 +281,7 @@ const siteData = {
       },
     ],
     timelineSection: {
-      title: "Important Dates",
+      title: "Important dates",
       timeline: [
         {
           title: "Registration Opens",
@@ -323,8 +323,7 @@ const siteData = {
           date: "21st of January",
           description: (
             <p>
-              All registered participants will receive an email a day before the
-              with instructions on how to join the event.
+              The event starts on this day. Participants are expected to reach the campus by 8:30am. 
             </p>
           ),
         },
