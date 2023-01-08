@@ -91,7 +91,12 @@ const siteData = {
           name: "Transport & Infrastructure",
           icon: <DirectionsBus />,
           description: <p>To be provided</p>,
-          example: <p>Examples: Ride Sharing Application, Road Safety Reporting Application</p>,
+          example: (
+            <p>
+              Examples: Ride Sharing Application, Road Safety Reporting
+              Application
+            </p>
+          ),
         },
         {
           name: "Education",
@@ -194,7 +199,8 @@ const siteData = {
             icon: <Laptop />,
             content: (
               <p>
-                The Codefest is an in-person event and will be held at Oakridge International School, Bangalore.
+                The Codefest is an in-person event and will be held at Oakridge
+                International School, Bangalore.
               </p>
             ),
           },
@@ -203,8 +209,8 @@ const siteData = {
             icon: <MonetizationOn />,
             content: (
               <p>
-                The ₹400 will cover your snacks, accommodation, eligibility
-                for the rewards provided by our sponsors.
+                The ₹400 will cover your snacks, accommodation, eligibility for
+                the rewards provided by our sponsors.
               </p>
             ),
           },
@@ -339,41 +345,35 @@ const siteData = {
   sponsorsSection: {
     title: "Event Sponsors",
     sponsorGroups: [
-      // {
-      //   title: <Typography variant="h4">Title Sponsor</Typography>,
-      //   sponsorRows: [
-      //     [
-      //       <Card
-      //         elevation={4}
-      //         sx={{
-      //           width: "70%",
-      //           margin: 2,
-      //           borderRadius: "10px",
-      //           overflow: "hidden",
-      //         }}
-      //       >
-      //         <a
-      //           href="https://www.teamhgs.com/"
-      //           target="_blank"
-      //           rel="noreferrer"
-      //         >
-      //           <StaticImage
-      //             src="./images/sponsors/hgs.png"
-      //             alt="HGS Logo"
-      //             placeholder="blurred"
-      //           />
-      //         </a>
-      //       </Card>,
-      //     ],
-      //   ],
-      // },
       {
-        title: <Typography variant="h5">Financial Partners</Typography>,
+        title: (
+          <Typography variant="h3" sx={{ marginBottom: "12px" }}>
+            Financial Partners
+          </Typography>
+        ),
         sponsorRows: [
-          <Card
+          [
+            <Card
               elevation={4}
               sx={{
-                width: "20%",
+                width: "25%",
+                margin: 2,
+                borderRadius: "10px",
+                overflow: "hidden",
+              }}
+            >
+              <a href="https://oakridge.com/" target="_blank" rel="noreferrer">
+                <StaticImage
+                  src="./images/sponsors/oakridge.png"
+                  alt="Oakridge Logo"
+                  placeholder="blurred"
+                />
+              </a>
+            </Card>,
+            <Card
+              elevation={4}
+              sx={{
+                width: "25%",
                 margin: 2,
                 borderRadius: "10px",
                 overflow: "hidden",
@@ -381,16 +381,17 @@ const siteData = {
             >
               <a href="https://dhiway.com/" target="_blank" rel="noreferrer">
                 <StaticImage
-                  src="./images/sponsors/dhiway.jfif"
-                  alt="Modfy Logo"
+                  src="./images/sponsors/dhiway.png"
+                  alt="Dhiway Logo"
                   placeholder="blurred"
                 />
               </a>
-            </Card>
-        ]
+            </Card>,
+          ],
+        ],
       },
       {
-        title: <Typography variant="h5">In-kind Partners</Typography>,
+        title: <Typography variant="h4">In-kind Partners</Typography>,
         sponsorRows: [
           [
             <Card

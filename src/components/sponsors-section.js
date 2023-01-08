@@ -7,8 +7,6 @@ function SponsorsSection() {
     <div align="center">
       <Box sx={{ maxWidth: "1000px", width: "80vw" }}>
         <Card elevation={5} sx={{ p: 3 }}>
-          <Typography variant="h3">{siteData.sponsorsSection.title}</Typography>
-          <br />
           {siteData.sponsorsSection.sponsorGroups.map((sponsorGroup, index) => (
             <>
               {sponsorGroup.title}
