@@ -164,7 +164,7 @@ const siteData = {
     ],
   },
   prizesSection: {
-    cash: "Total cash prizes worth ₹2,00,000",
+    cash: "Large cash prizes",
     sponsor: "Exclusive participation perks from our sponsors",
   },
   faqSection: {
