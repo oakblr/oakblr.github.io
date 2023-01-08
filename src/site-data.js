@@ -88,7 +88,7 @@ const siteData = {
     themes: [
       [
         {
-          name: "Transport & Infrastructure",
+          name: "Transportation",
           icon: <DirectionsBus />,
           description: (
             <p>
