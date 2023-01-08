@@ -90,11 +90,21 @@ const siteData = {
         {
           name: "Transport & Infrastructure",
           icon: <DirectionsBus />,
-          description: <p>To be provided</p>,
+          description: (
+            <p>
+              Humans, around the world, commute millions of miles every single
+              day. A significant fraction of our day is spent in traveling.
+              Technology has played a very significant role in enabling more
+              people to commute. Technology has fundamentally redefined the way
+              we travel. Imagine how technology can improve human experience
+              even further in day to day transportation and commute. What can
+              technology do make public and private transportation much simpler
+              and safer?
+            </p>
+          ),
           example: (
             <p>
-              Examples: Ride Sharing Application, Road Safety Reporting
-              Application
+              Examples: Ride Sharing Application, Road Safety Reporting System
             </p>
           ),
         },
@@ -300,7 +310,8 @@ const siteData = {
           date: "11th of January",
           description: (
             <p>
-              The early bird registration period will end on the 11th. After this, the registration prices will increase.  
+              The early bird registration period will end on the 11th. After
+              this, the registration prices will increase.
             </p>
           ),
         },
@@ -333,11 +344,12 @@ const siteData = {
           date: "22nd of January",
           description: (
             <p>
-              On this day, the event will end. Shortlisted teams will get the chance to present their projects to the judges, after which the winners will be announced.
+              On this day, the event will end. Shortlisted teams will get the
+              chance to present their projects to the judges, after which the
+              winners will be announced.
             </p>
           ),
         },
-
       ],
     },
   },
