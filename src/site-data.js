@@ -323,7 +323,7 @@ const siteData = {
           date: "21st of January",
           description: (
             <p>
-              The event starts on this day. Participants are expected to reach the campus by 8:30am. 
+              Participants are expected to reach the campus by 8:30am. 
             </p>
           ),
         },
