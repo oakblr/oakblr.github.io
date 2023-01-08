@@ -81,7 +81,7 @@ const siteData = {
       <>
         Teams are expected to select one primary theme for their project but are
         allowed and encouraged to choose more secondary themes. For more
-        information regarding the themes please email us at{" "}
+        information regarding the themes, please email us at{" "}
         <a href="mailto:codefest@oakridge.in">codefest@oakridge.in</a>
       </>
     ),
@@ -92,14 +92,14 @@ const siteData = {
           icon: <DirectionsBus />,
           description: (
             <p>
-              Humans, around the world, commute millions of miles every single
-              day. A significant fraction of our day is spent in traveling.
+              Humans around the world commute millions of miles every single
+              day. A significant fraction of our day is spent traveling.
               Technology has played a very significant role in enabling more
               people to commute. Technology has fundamentally redefined the way
               we travel. Imagine how technology can improve human experience
-              even further in day to day transportation and commute. What can
-              technology do make public and private transportation much simpler
-              and safer?
+              even further in day-to-day transportation and commute. What can
+              technology do to make public and private transportation much
+              simpler and safer?
             </p>
           ),
           example: (
@@ -132,11 +132,11 @@ const siteData = {
             <p>
               Sustainability refers to creating a world that can be prosperous
               and habitable for future generations, and as society progresses,
-              technology will be the at the crux of maintaining sustainability.
-              From new and more efficient uses of energy to combating
-              deforestation, technology's importance to sustainability has been
-              especially pronounced in recent years. What can you do with
-              technology to create a more sustainable world?
+              technology will be at the crux of maintaining sustainability. From
+              new and more efficient uses of energy to combating deforestation,
+              technology's importance to sustainability has been especially
+              pronounced in recent years. What can you do with technology to
+              create a more sustainable world?
             </p>
           ),
           example: <p>Examples: Carbon Footprint Calculator and Smart Bulb</p>,
@@ -151,10 +151,10 @@ const siteData = {
               Health care is an essential service, and our ability to provide
               quality health care as well as store, share and analyze health
               information is directly tied to improved technology. Particularly
-              with the current situation of the COVID-19 pandemic, technology
-              has been used to create solutions to track and minimize the spread
-              of the virus. We look forward to seeing what technological
-              creations you will develop to contribute to this field.
+              with the recent situation of the COVID-19 pandemic, technology has
+              been used to create solutions to track and minimize the spread of
+              the virus. We look forward to seeing what technological creations
+              you will develop to contribute to this field.
             </p>
           ),
           example: <p>Examples: Fitness Tracker and Smart Health Monitor</p>,
@@ -168,7 +168,7 @@ const siteData = {
               time! <br />
               <br /> For this theme, we expect participants to be creative and
               innovative and have some kind of unique idea or message in it.
-              Participants need to use programming languages and drag and
+              Participants need to use programming languages, and drag and
               drop/WYSIWYG applications such as Scratch and MIT App Inventor are
               strictly not allowed.
             </p>
@@ -234,7 +234,7 @@ const siteData = {
                 facilitate this, our team will guide all teams towards creating
                 a solid idea for their projects. Participants will receive a
                 final confirmation once their idea has been vetted by the
-                Codefest team at least 2 weeks before the event.
+                Codefest team before the event starts.
               </p>
             ),
           },
@@ -249,7 +249,7 @@ const siteData = {
             content: (
               <p>
                 Any language, technology stack, or library can be used to create
-                your solutions, except drag and drop software like Scratch or
+                your solutions, except drag-and-drop software like Scratch or
                 MIT App Inventor.
               </p>
             ),
@@ -259,7 +259,7 @@ const siteData = {
             icon: <LightbulbOutlined />,
             content: (
               <p>
-                The entire idea need not be implemented, however, the submission
+                The entire idea need not be implemented. However, the submission
                 should be functional so that it can be reviewed by the judges.
               </p>
             ),
@@ -270,10 +270,10 @@ const siteData = {
             icon: <Copyright />,
             content: (
               <p>
-                The developer/developers of the web/mobile application will have
-                all rights and own the IP of the product. However, all code
-                needs to be in the public domain (open source) so that it can be
-                evaluated by the judges.
+                The developer(s) of the application will have all rights and own
+                the IP of the product. However, all code needs to be in the
+                public domain (open source) so that it can be evaluated by the
+                judges.
               </p>
             ),
           },
@@ -283,7 +283,7 @@ const siteData = {
             content: (
               <p>
                 No, any submission made to the event must be developed within
-                the 24 hour time limit and must fit the selected theme.
+                the 24-hour time limit and must fit the selected theme.
               </p>
             ),
           },
@@ -299,8 +299,8 @@ const siteData = {
           date: "26th of December",
           description: (
             <p>
-              Participants are expected to sign up for the event and submit a
-              detailed idea on what exactly they are going to do at the event.
+              Participants are expected to sign up for the event and submit
+              their idea for what they are going to create at the event.
             </p>
           ),
         },
@@ -613,12 +613,12 @@ const siteData = {
     title: "Terms & Conditions",
     terms: [
       "No one over the age of 19 is allowed to participate.",
-      "Falsification of age or any other personal information will lead to the immediate disqualification of the malefactor",
-      "Cyberbullying and harassing are strictly prohibited. This includes but is not limited to: Insulting participants or management, sending distasteful messages or images and threatening others.",
+      "Falsification of age or any other personal information will lead to the immediate disqualification of the malefactor.",
+      "Cyberbullying and harassing are strictly prohibited. This includes but is not limited to: Insulting participants or management, sending distasteful messages or images, and threatening others.",
       "The judges' decisions are final.",
       "The management reserves the right to admission. The management reserves the right to make final decisions regarding disputes that may arise.",
       "Sponsor awards earned by the participants are given at the sponsors' discretion. The school and the core team are not liable in the event that sponsor prizes are not awarded to the participants.",
-      "Oakridge International reserves all rights to the event and all decision made by Oakridge International are final.",
+      "Oakridge International reserves all rights to the event, and all decisions made by Oakridge International are final.",
       "Violation of these conditions will lead to immediate disqualification.",
     ],
   },
