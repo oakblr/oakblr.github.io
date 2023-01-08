@@ -79,9 +79,9 @@ const siteData = {
     title: "Themes for Oakridge Codefest (2023)",
     description: (
       <>
-        Teams are expected to use at least one primary theme for their project
-        but are advised to choose two or more themes. For more information
-        regarding the themes please email us at{" "}
+        Teams are expected to select one primary theme for their project but are
+        allowed and encouraged to choose more secondary themes. For more
+        information regarding the themes please email us at{" "}
         <a href="mailto:codefest@oakridge.in">codefest@oakridge.in</a>
       </>
     ),
@@ -333,9 +333,7 @@ const siteData = {
           icon: <Event />,
           date: "21st of January",
           description: (
-            <p>
-              Participants are expected to reach the campus by 8:30am. 
-            </p>
+            <p>Participants are expected to reach the campus by 8:30am.</p>
           ),
         },
         {
