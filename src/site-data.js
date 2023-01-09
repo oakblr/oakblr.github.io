@@ -12,7 +12,9 @@ import {
   People,
   Laptop,
   MonetizationOn,
-  Grading,
+  Schedule,
+  Styler,
+  Restaurant,
   Language,
   LightbulbOutlined,
   Copyright,
@@ -209,8 +211,46 @@ const siteData = {
             icon: <Laptop />,
             content: (
               <p>
-                The Codefest is an in-person event and will be held at  <a href="https://goo.gl/maps/CaQzutByzbpb5LEU6" target="_blank" rel="noreferrer">Oakridge
-                International School, Bangalore</a>
+                The Codefest is an in-person event and will be held at{" "}
+                <a
+                  href="https://goo.gl/maps/CaQzutByzbpb5LEU6"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Oakridge International School, Bangalore
+                </a>
+              </p>
+            ),
+          },
+          {
+            title: "What are the timings for the event?",
+            icon: <Schedule />,
+            content: (
+              <p>
+                Participants are expected to report to the venue at 8:30 on the
+                21st of January, and the event ends at around 14:00 the next
+                day. No extra time will be given if you are late.
+              </p>
+            ),
+          },
+          {
+            title: "Will food be provided during the event?",
+            icon: <Restaurant />,
+            content: (
+              <p>
+                Lunch and dinner will be provided for the 21st of January.
+                Breakfast will be provided for the 22nd of January for all
+                participants and mentors.
+              </p>
+            ),
+          },
+          {
+            title: "What is the dress code for the event?",
+            icon: <Styler />,
+            content: (
+              <p>
+                You may wear clothes of your choice as long as they are school
+                appropriate.
               </p>
             ),
           },
@@ -221,20 +261,6 @@ const siteData = {
               <p>
                 The ₹400 will cover your snacks, accommodation, eligibility for
                 the rewards provided by our sponsors.
-              </p>
-            ),
-          },
-          {
-            title: "Is there a selection process for the Oakridge Codefest?",
-            icon: <Grading />,
-            content: (
-              <p>
-                We at Codefest believe that everyone with a passion for coding
-                should be given the opportunity to participate in the event. To
-                facilitate this, our team will guide all teams towards creating
-                a solid idea for their projects. Participants will receive a
-                final confirmation once their idea has been vetted by the
-                Codefest team before the event starts.
               </p>
             ),
           },
