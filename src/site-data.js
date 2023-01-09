@@ -209,8 +209,8 @@ const siteData = {
             icon: <Laptop />,
             content: (
               <p>
-                The Codefest is an in-person event and will be held at Oakridge
-                International School, Bangalore.
+                The Codefest is an in-person event and will be held at  <a href="https://goo.gl/maps/CaQzutByzbpb5LEU6" target="_blank" rel="noreferrer">Oakridge
+                International School, Bangalore</a>
               </p>
             ),
           },
