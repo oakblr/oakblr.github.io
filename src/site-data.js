@@ -397,7 +397,7 @@ const siteData = {
                 overflow: "hidden",
               }}
             >
-              <a href="https://oakridge.com/" target="_blank" rel="noreferrer">
+              <a href="https://oakridge.in/" target="_blank" rel="noreferrer">
                 <StaticImage
                   src="./images/sponsors/oakridge.png"
                   alt="Oakridge Logo"
