@@ -12,10 +12,19 @@ import {
   People,
   Laptop,
   MonetizationOn,
+  SupervisorAccount,
   Schedule,
-  Styler,
+  Checkroom,
+  Backpack,
   Restaurant,
+  ReceiptLong,
+  Wifi,
+  Badge,
+  EscalatorWarning,
+  Logout,
   Language,
+  Bed,
+  Bedtime,
   LightbulbOutlined,
   Copyright,
   Cached,
@@ -245,8 +254,56 @@ const siteData = {
             ),
           },
           {
+            title: "What supplies do we need to bring?",
+            icon: <Backpack />,
+            content: (
+              <p>
+                Participants need to bring their own laptops and phones as well
+                as any other devices or materials they need for their project.
+              </p>
+            ),
+          },
+          {
+            title: "Will accommodation be provided?",
+            icon: <Bed />,
+            content: (
+              <p>
+                The school will provide accommodation and food for all
+                participants only during the event. If you want to, you are also
+                allowed to bring your own sleeping bags. Participants will have
+                to arrange for their own accommodation before and after the
+                event if required. Bus transportation will also be provided for
+                all Oakridge students.
+              </p>
+            ),
+          },
+          {
+            title: "Can parents accompany their children?",
+            icon: <EscalatorWarning />,
+            content: (
+              <p>
+                Parents can drop their children off and pick them up but cannot
+                stay for the event. Teachers will be present at all hours to
+                supervise the participants and ensure their safety. Parents will
+                also be able to contact their children at any point.
+              </p>
+            ),
+          },
+          {
+            title:
+              "Is it necessary to be accompanied by a mentor/teacher to the venue?",
+            icon: <SupervisorAccount />,
+            content: (
+              <p>
+                Participants are advised to report with a teacher. Please notify
+                us if there are issues getting a mentor or teacher so we can
+                come up with a solution.
+              </p>
+            ),
+          },
+          {
             title: "What is the dress code for the event?",
-            icon: <Styler />,
+            icon: <Checkroom />,
             content: (
               <p>
                 You may wear clothes of your choice as long as they are school
@@ -255,12 +312,57 @@ const siteData = {
             ),
           },
           {
+            title: "Will wifi be provided?",
+            icon: <Wifi />,
+            content: (
+              <p>
+                Although free wifi will be provided, you can bring data cards or
+                dongles to avoid connection issues.
+              </p>
+            ),
+          },
+          {
+            title: "Should we bring an ID card?",
+            icon: <Badge />,
+            content: (
+              <p>
+                Yes, all participants should carry school ID cards with them.
+              </p>
+            ),
+          },
+          {
+            title: "Are we allowed to leave the venue and join back?",
+            icon: <Logout />,
+            content: (
+              <p>
+                Students are encouraged to stay the entire night until the
+                closing ceremony ends on the next day. If necessary, they can
+                leave with their parents on the 21st night and return on the
+                22nd morning. A consent form needs to be signed and provided at
+                the start of the event if they are staying overnight.
+              </p>
+            ),
+          },
+          {
+            title: "Are we allowed to code overnight with our teammates?",
+            icon: <Bedtime />,
+            content: (
+              <p>
+                Since it is a 24-hour hackathon, participants are encouraged to
+                stay overnight and work on their projects. Also we recommend at
+                least 1 teammate to stay overnight to participate in the 3rd
+                audit. However, this isn't necessary.
+              </p>
+            ),
+          },
+          {
             title: "What does my registration fee go towards?",
             icon: <MonetizationOn />,
             content: (
               <p>
-                The ₹400 will cover your snacks, accommodation, eligibility for
-                the rewards provided by our sponsors.
+                The ₹400 will cover all services provided by us including your
+                snacks, accommodation, and eligibility for the rewards provided
+                by our sponsors.
               </p>
             ),
           },
@@ -300,6 +402,17 @@ const siteData = {
                 the IP of the product. However, all code needs to be in the
                 public domain (open source) so that it can be evaluated by the
                 judges.
+              </p>
+            ),
+          },
+          {
+            title: "What do participants need to prepare before the event?",
+            icon: <ReceiptLong />,
+            content: (
+              <p>
+                Nothing relating to the project can be prepared beforehand. All
+                code and assets for the project, as well as any presentation the
+                participants wish to create, must be created during the event.
               </p>
             ),
           },
