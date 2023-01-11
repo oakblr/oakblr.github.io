@@ -259,7 +259,7 @@ const siteData = {
             content: (
               <p>
                 Participants need to bring their own laptops and phones as well
-                as any other devices or materials they need for their project.
+                as any other devices or materials they need for their project. You are also required to bring your own dental kit and a blanket if you need it. 
               </p>
             ),
           },
@@ -349,8 +349,8 @@ const siteData = {
             content: (
               <p>
                 Since it is a 24-hour hackathon, participants are encouraged to
-                stay overnight and work on their projects. Also we recommend at
-                least 1 teammate to stay overnight to participate in the 3rd
+                stay overnight and work on their projects. We also recommend having at
+                least 1 teammate stay overnight to participate in the 3rd
                 audit. However, this isn't necessary.
               </p>
             ),
