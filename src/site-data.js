@@ -41,7 +41,7 @@ type: <span className="string-highlight">'24 hour Overnight Hackathon'</span>, {
 date: <span className="string-highlight">'21st and 22nd of January, 2023'</span>, {"\n"}
 location: <span className="string-highlight">'Oakridge International School Bengaluru'</span>, {"\n"}
 themes:[ {"\n"}
-<span className="string-highlight">'Transport & Infrastructure'</span>, {"\n"}
+<span className="string-highlight">'Transportation'</span>, {"\n"}
 <span className="string-highlight">'Education'</span>, {"\n"}
 <span className="string-highlight">'Environmental Sustainability'</span>, {"\n"}
 <span className="string-highlight">'Healthcare'</span>,  {"\n"}
