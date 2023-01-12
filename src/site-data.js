@@ -360,7 +360,7 @@ const siteData = {
             icon: <MonetizationOn />,
             content: (
               <p>
-                The ₹400 will cover all services provided by us including your
+                The ₹500 will cover all services provided by us including your
                 snacks, accommodation, and eligibility for the rewards provided
                 by our sponsors.
               </p>
