@@ -259,7 +259,9 @@ const siteData = {
             content: (
               <p>
                 Participants need to bring their own laptops and phones as well
-                as any other devices or materials they need for their project. You are also required to bring your own dental kit and a blanket if you need it. 
+                as any other devices or materials they need for their project.
+                You are also required to bring your own dental kit and a blanket
+                if you need it.
               </p>
             ),
           },
@@ -349,9 +351,9 @@ const siteData = {
             content: (
               <p>
                 Since it is a 24-hour hackathon, participants are encouraged to
-                stay overnight and work on their projects. We also recommend having at
-                least 1 teammate stay overnight to participate in the 3rd
-                audit. However, this isn't necessary.
+                stay overnight and work on their projects. We also recommend
+                having at least 1 teammate stay overnight to participate in the
+                3rd audit. However, this isn't necessary.
               </p>
             ),
           },
@@ -510,10 +512,10 @@ const siteData = {
                 overflow: "hidden",
               }}
             >
-              <a href="https://oakridge.in/" target="_blank" rel="noreferrer">
+              <a href="https://dhiway.com/" target="_blank" rel="noreferrer">
                 <StaticImage
-                  src="./images/sponsors/oakridge.png"
-                  alt="Oakridge Logo"
+                  src="./images/sponsors/dhiway.png"
+                  alt="Dhiway Logo"
                   placeholder="blurred"
                 />
               </a>
@@ -527,10 +529,10 @@ const siteData = {
                 overflow: "hidden",
               }}
             >
-              <a href="https://dhiway.com/" target="_blank" rel="noreferrer">
+              <a href="https://mira.money/" target="_blank" rel="noreferrer">
                 <StaticImage
-                  src="./images/sponsors/dhiway.png"
-                  alt="Dhiway Logo"
+                  src="./images/sponsors/mira.png"
+                  alt="Mira Money Logo"
                   placeholder="blurred"
                 />
               </a>
