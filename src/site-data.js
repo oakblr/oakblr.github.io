@@ -248,8 +248,8 @@ const siteData = {
             content: (
               <p>
                 Lunch and dinner will be provided for the 21st of January.
-                Breakfast will be provided for the 22nd of January for all
-                participants and mentors.
+                Breakfast and lunch will be provided for the 22nd of January for
+                all participants and mentors.
               </p>
             ),
           },
@@ -260,7 +260,7 @@ const siteData = {
               <p>
                 Participants need to bring their own laptops and phones as well
                 as any other devices or materials they need for their project.
-                You are also required to bring your own dental kit and a blanket
+                You are also required to bring your own toiletries and a blanket
                 if you need it.
               </p>
             ),
