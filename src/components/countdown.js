@@ -8,10 +8,18 @@ function Countdown() {
   const timeLeft = () => {
     const t = Date.parse(siteData.codefestEndDate) - Date.parse(new Date())
     return [
-      Math.max(Math.floor(t / (1000 * 60 * 60 * 24)), 0),
-      Math.max(Math.floor((t / (1000 * 60 * 60)) % 24), 0),
-      Math.max(Math.floor((t / 1000 / 60) % 60), 0),
-      Math.max(Math.floor((t / 1000) % 60), 0),
+      Math.max(Math.floor(t / (1000 * 60 * 60 * 24)), 0)
+        .toString()
+        .padStart(2, "0"),
+      Math.max(Math.floor((t / (1000 * 60 * 60)) % 24), 0)
+        .toString()
+        .padStart(2, "0"),
+      Math.max(Math.floor((t / 1000 / 60) % 60), 0)
+        .toString()
+        .padStart(2, "0"),
+      Math.max(Math.floor((t / 1000) % 60), 0)
+        .toString()
+        .padStart(2, "0"),
     ]
   }
 

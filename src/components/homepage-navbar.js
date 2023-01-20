@@ -153,7 +153,7 @@ function HomePageNavBar() {
               rel="noreferrer"
               disabled={siteData.registerButton.disabled}
               sx={{
-                width: 150,
+                width: 250, // Change back to 150 later
                 mx: 1,
                 my: 2,
                 textAlign: "center",
