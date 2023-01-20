@@ -60,7 +60,7 @@ const siteData = {
   juniorSiteData: juniorSiteData,
   homepageSections: ["Themes", "Prizes", "FAQ", "Sponsors"],
   registerButton: {
-    text: "Register Now",
+    text: "Registrations close at 9pm",
     url: "https://forms.gle/CJ3CEwH33nBvUvgeA",
     disabled: false,
   },
