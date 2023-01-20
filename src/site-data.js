@@ -60,9 +60,9 @@ const siteData = {
   juniorSiteData: juniorSiteData,
   homepageSections: ["Themes", "Prizes", "FAQ", "Sponsors"],
   registerButton: {
-    text: "Registrations close at 9pm",
+    text: "Registrations closed",
     url: "https://forms.gle/CJ3CEwH33nBvUvgeA",
-    disabled: false,
+    disabled: true,
   },
   typewriterContent: typewriterContent,
   codefestEndDate: "January 21 2023 11:00:00 GMT+0530",
