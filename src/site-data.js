@@ -295,8 +295,7 @@ const siteData = {
           description: (
             <p>
               Participants will not be allowed to register after this date. All
-              registered participants will be emailed special event invite
-              links.
+              registered participants will receive a confirmation email.
             </p>
           ),
         },
