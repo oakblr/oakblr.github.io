@@ -31,7 +31,7 @@ function HomePageNavBar() {
   }
 
   const goToRegistrationForm = () => {
-    window.location = "https://forms.gle/CJ3CEwH33nBvUvgeA";
+    window.location = "https://forms.gle/CJ3CEwH33nBvUvgeA"
   }
 
   return (
@@ -93,14 +93,14 @@ function HomePageNavBar() {
                 </MenuItem>
               ))}
               <MenuItem
-                  key="Register"
-                  onClick={() => {
-                    handleCloseNavMenu()
-                    goToRegistrationForm()
-                  }}
-                >
-                  <Typography textAlign="center">Register</Typography>
-                </MenuItem>
+                key="Register"
+                onClick={() => {
+                  handleCloseNavMenu()
+                  goToRegistrationForm()
+                }}
+              >
+                <Typography textAlign="center">Register</Typography>
+              </MenuItem>
             </Menu>
           </Box>
           <Box
@@ -153,7 +153,7 @@ function HomePageNavBar() {
               rel="noreferrer"
               disabled={siteData.registerButton.disabled}
               sx={{
-                width: 250, // Change back to 150 later
+                width: 200, // Change back to 150 later
                 mx: 1,
                 my: 2,
                 textAlign: "center",
