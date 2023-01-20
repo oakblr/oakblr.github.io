@@ -512,6 +512,27 @@ const siteData = {
                 overflow: "hidden",
               }}
             >
+              <a
+                href="https://www.innominds.com/about"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <StaticImage
+                  src="./images/sponsors/innominds.png"
+                  alt="Innominds Logo"
+                  placeholder="blurred"
+                />
+              </a>
+            </Card>,
+            <Card
+              elevation={4}
+              sx={{
+                width: "24%",
+                margin: 1.75,
+                borderRadius: "10px",
+                overflow: "hidden",
+              }}
+            >
               <a href="https://dhiway.com/" target="_blank" rel="noreferrer">
                 <StaticImage
                   src="./images/sponsors/dhiway.png"
@@ -533,27 +554,6 @@ const siteData = {
                 <StaticImage
                   src="./images/sponsors/mira.png"
                   alt="Mira Money Logo"
-                  placeholder="blurred"
-                />
-              </a>
-            </Card>,
-            <Card
-              elevation={4}
-              sx={{
-                width: "24%",
-                margin: 1.75,
-                borderRadius: "10px",
-                overflow: "hidden",
-              }}
-            >
-              <a
-                href="https://www.innominds.com/about"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <StaticImage
-                  src="./images/sponsors/innominds.png"
-                  alt="Innominds Logo"
                   placeholder="blurred"
                 />
               </a>
