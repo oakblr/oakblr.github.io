@@ -36,9 +36,9 @@ import { StaticImage } from "gatsby-plugin-image"
 // prettier-ignore
 const typewriterContent = (
 <pre style={{whiteSpace: "pre-line"}}>
-<span className="var-highlight">Oakridge Codefest</span> 2023 = {"{"} {"\n"}
+<span className="var-highlight">Oakridge Codefest</span> 2024 = {"{"} {"\n"}
 type: <span className="string-highlight">'24 hour Overnight Hackathon'</span>, {"\n"}
-date: <span className="string-highlight">'21st and 22nd of January, 2023'</span>, {"\n"}
+date: <span className="string-highlight">'End of January, 2024'</span>, {"\n"}
 location: <span className="string-highlight">'Oakridge International School Bengaluru'</span>, {"\n"}
 themes:[ {"\n"}
 <span className="string-highlight">'Transportation'</span>, {"\n"}
@@ -65,13 +65,13 @@ const siteData = {
     disabled: true,
   },
   typewriterContent: typewriterContent,
-  codefestEndDate: "January 21 2023 11:00:00 GMT+0530",
+  codefestEndDate: "January 27 2024 11:00:00 GMT+0530",
   introCardSections: [
     {
       icon: <Tungsten sx={{ fontSize: "54px" }} />,
       title: "What is Codefest?",
       content:
-        "Oakridge Codefest is one of Bangalore's largest high-school hackathons that provides the opportunity for aspiring developers to showcase their unique talents to both each other and veterans of the industry.",
+        "Oakridge Codefest is one of India's largest high-school hackathons that provides the opportunity for aspiring developers to showcase their unique talents to both each other and veterans of the industry.",
     },
     {
       icon: <Style sx={{ fontSize: "54px" }} />,
@@ -87,7 +87,7 @@ const siteData = {
     },
   ],
   themesSection: {
-    title: "Themes for Oakridge Codefest (2023)",
+    title: "Themes for Oakridge Codefest (2024)",
     description: (
       <>
         Teams are expected to select one primary theme for their project but are
@@ -237,7 +237,7 @@ const siteData = {
             content: (
               <p>
                 Participants are expected to report to the venue at 8:30 on the
-                21st of January, and the event ends at around 14:00 the next
+                27th of January, and the event ends at around 14:30 the next
                 day. No extra time will be given if you are late.
               </p>
             ),
@@ -247,8 +247,8 @@ const siteData = {
             icon: <Restaurant />,
             content: (
               <p>
-                Lunch and dinner will be provided for the 21st of January.
-                Breakfast and lunch will be provided for the 22nd of January for
+                Lunch and dinner will be provided for the 27th of January.
+                Breakfast and lunch will be provided for the 28th of January for
                 all participants and mentors.
               </p>
             ),
@@ -714,7 +714,7 @@ const siteData = {
       ),
     },
     {
-      name: "Jahnavi Thejo Prakash",
+      name: "Aditya Bangolae",
       image: (
         <StaticImage
           src="./images/portraits/jahnavi.jpg"
@@ -725,7 +725,7 @@ const siteData = {
       ),
     },
     {
-      name: "Pranav Menon",
+      name: "Arjun Singh",
       image: (
         <StaticImage
           src="./images/portraits/pranav.jpg"
@@ -747,7 +747,7 @@ const siteData = {
       ),
     },
     {
-      name: "Saanika Gupta",
+      name: "Sachit Shastri",
       image: (
         <StaticImage
           src="./images/portraits/saanika.jpg"
@@ -757,19 +757,8 @@ const siteData = {
         />
       ),
     },
-    {
-      name: "Siddharth Satish",
-      image: (
-        <StaticImage
-          src="./images/portraits/siddharth.jpg"
-          alt="Portrait of Siddharth Satish"
-          placeholder="blurred"
-          aspectRatio={4 / 5}
-        />
-      ),
-    },
   ],
-  coreTeamPageTitle: "Codefest 2023 Core Team Members",
+  coreTeamPageTitle: "Codefest 2024 Core Team Members",
   termsPage: {
     title: "Terms & Conditions",
     terms: [
