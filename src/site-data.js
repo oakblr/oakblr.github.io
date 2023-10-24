@@ -232,6 +232,16 @@ const siteData = {
             ),
           },
           {
+            title: "Can we only make software projects?",
+            icon: <SmartToy />,
+            content: (
+              <p>
+                We accept both software and hardware projects, but all
+                hardware components must be brought by the participants.
+              </p>
+            ),
+          },
+          {
             title: "What are the timings for the event?",
             icon: <Schedule />,
             content: (
@@ -299,7 +309,7 @@ const siteData = {
               <p>
                 Participants are advised to report with a teacher. Please notify
                 us if there are issues getting a mentor or teacher so we can
-                come up with a solution.
+                make necessary arrangements.
               </p>
             ),
           },
@@ -319,7 +329,7 @@ const siteData = {
             content: (
               <p>
                 Although free wifi will be provided, you can bring data cards or
-                dongles to avoid connection issues.
+                dongles to avoid potential connection issues.
               </p>
             ),
           },
@@ -328,7 +338,7 @@ const siteData = {
             icon: <Badge />,
             content: (
               <p>
-                Yes, all participants should carry school ID cards with them.
+                Yes, all participants must carry school ID cards with them.
               </p>
             ),
           },
@@ -339,8 +349,8 @@ const siteData = {
               <p>
                 Students are encouraged to stay the entire night until the
                 closing ceremony ends on the next day. If necessary, they can
-                leave with their parents on the 21st night and return on the
-                22nd morning. A consent form needs to be signed and provided at
+                leave with their parents on the night of the 27th and return on the
+                morning of the 28th. A consent form needs to be signed and provided at
                 the start of the event if they are staying overnight.
               </p>
             ),
@@ -380,7 +390,9 @@ const siteData = {
               <p>
                 Any language, technology stack, or library can be used to create
                 your solutions, except drag-and-drop software like Scratch or
-                MIT App Inventor.
+                MIT App Inventor. If you are unsure that your software Development
+                platform will not be allowed, please don't hesitate to mail us
+                to confirm.
               </p>
             ),
           },
@@ -414,7 +426,9 @@ const siteData = {
               <p>
                 Nothing relating to the project can be prepared beforehand. All
                 code and assets for the project, as well as any presentation the
-                participants wish to create, must be created during the event.
+                participants wish to create, must be created during the event. If
+                participants are found to be reusing previously written code, they
+                will be immediately disqualified.
               </p>
             ),
           },
@@ -437,7 +451,7 @@ const siteData = {
         {
           title: "Registration Opens",
           icon: <ContactMail />,
-          date: "26th of December",
+          date: "7th of December",
           description: (
             <p>
               Participants are expected to sign up for the event and submit
@@ -448,10 +462,10 @@ const siteData = {
         {
           title: "Early Bird Registrations close",
           icon: <PendingActions />,
-          date: "11th of January",
+          date: "2nd of January",
           description: (
             <p>
-              The early bird registration period will end on the 11th. After
+              The early bird registration period will end on the 1st. After
               this, the registration prices will increase.
             </p>
           ),
@@ -471,7 +485,7 @@ const siteData = {
         {
           title: "Event Starts",
           icon: <Event />,
-          date: "21st of January",
+          date: "27th of January",
           description: (
             <p>Participants are expected to reach the campus by 8:30am.</p>
           ),
@@ -479,12 +493,13 @@ const siteData = {
         {
           title: "Event Ends",
           icon: <Event />,
-          date: "22nd of January",
+          date: "28th of January",
           description: (
             <p>
               On this day, the event will end. Shortlisted teams will get the
               chance to present their projects to the judges, after which the
-              winners will be announced.
+              winners will be announced. Monetary prizes will be sent within
+              1 to 2 weeks post the event.
             </p>
           ),
         },
