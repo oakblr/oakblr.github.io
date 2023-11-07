@@ -38,7 +38,7 @@ const typewriterContent = (
 <pre style={{whiteSpace: "pre-line"}}>
 <span className="var-highlight">Oakridge Codefest</span> 2024 = {"{"} {"\n"}
 type: <span className="string-highlight">'24 hour Overnight Hackathon'</span>, {"\n"}
-date: <span className="string-highlight">'End of January, 2024'</span>, {"\n"}
+date: <span className="string-highlight">'20th and 21st January, 2024'</span>, {"\n"}
 location: <span className="string-highlight">'Oakridge International School Bengaluru'</span>, {"\n"}
 themes:[ {"\n"}
 <span className="string-highlight">'Transportation'</span>, {"\n"}
@@ -217,7 +217,7 @@ const siteData = {
           },
           {
             title: "Where will the hackathon take place?",
-            icon: <Laptop />,
+            icon: <Event />,
             content: (
               <p>
                 The Codefest is an in-person event and will be held at{" "}
@@ -233,7 +233,7 @@ const siteData = {
           },
           {
             title: "Can we only make software projects?",
-            icon: <SmartToy />,
+            icon: <Laptop />,
             content: (
               <p>
                 We accept both software and hardware projects, but all
