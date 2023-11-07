@@ -65,7 +65,7 @@ const siteData = {
     disabled: true,
   },
   typewriterContent: typewriterContent,
-  codefestEndDate: "January 27 2024 11:00:00 GMT+0530",
+  codefestEndDate: "January 20 2024 11:00:00 GMT+0530",
   introCardSections: [
     {
       icon: <Tungsten sx={{ fontSize: "54px" }} />,
@@ -247,7 +247,7 @@ const siteData = {
             content: (
               <p>
                 Participants are expected to report to the venue at 8:30 on the
-                27th of January, and the event ends at around 14:30 the next
+                20th of January, and the event ends at around 14:30 the next
                 day. No extra time will be given if you are late.
               </p>
             ),
@@ -257,8 +257,8 @@ const siteData = {
             icon: <Restaurant />,
             content: (
               <p>
-                Lunch and dinner will be provided for the 27th of January.
-                Breakfast and lunch will be provided for the 28th of January for
+                Lunch and dinner will be provided for the 20th of January.
+                Breakfast and lunch will be provided for the 21st of January for
                 all participants and mentors.
               </p>
             ),
@@ -349,8 +349,8 @@ const siteData = {
               <p>
                 Students are encouraged to stay the entire night until the
                 closing ceremony ends on the next day. If necessary, they can
-                leave with their parents on the night of the 27th and return on the
-                morning of the 28th. A consent form needs to be signed and provided at
+                leave with their parents on the night of the 20th and return on the
+                morning of the 21st. A consent form needs to be signed and provided at
                 the start of the event if they are staying overnight.
               </p>
             ),
@@ -485,7 +485,7 @@ const siteData = {
         {
           title: "Event Starts",
           icon: <Event />,
-          date: "27th of January",
+          date: "20th of January",
           description: (
             <p>Participants are expected to reach the campus by 8:30am.</p>
           ),
@@ -493,7 +493,7 @@ const siteData = {
         {
           title: "Event Ends",
           icon: <Event />,
-          date: "28th of January",
+          date: "21st of January",
           description: (
             <p>
               On this day, the event will end. Shortlisted teams will get the
