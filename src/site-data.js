@@ -743,8 +743,8 @@ const siteData = {
       name: "Arjun Singh",
       image: (
         <StaticImage
-          src="./images/portraits/pranav.jpg"
-          alt="Portrait of Pranav Menon"
+          src="./images/portraits/arjun.jpg"
+          alt="Portrait of Arjun Singh"
           placeholder="blurred"
           aspectRatio={4 / 5}
         />
