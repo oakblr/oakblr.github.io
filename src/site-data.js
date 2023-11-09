@@ -509,117 +509,117 @@ const siteData = {
   sponsorsSection: {
     title: "Event Sponsors",
     sponsorGroups: [
-      {
-        title: (
-          <Typography variant="h3" sx={{ marginBottom: "12px" }}>
-            Financial Partners
-          </Typography>
-        ),
-        sponsorRows: [
-          [
-            <Card
-              elevation={4}
-              sx={{
-                width: "24%",
-                margin: 1.75,
-                borderRadius: "10px",
-                overflow: "hidden",
-              }}
-            >
-              <a
-                href="https://www.innominds.com/about"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <StaticImage
-                  src="./images/sponsors/innominds.png"
-                  alt="Innominds Logo"
-                  placeholder="blurred"
-                />
-              </a>
-            </Card>,
-            <Card
-              elevation={4}
-              sx={{
-                width: "24%",
-                margin: 1.75,
-                borderRadius: "10px",
-                overflow: "hidden",
-              }}
-            >
-              <a href="https://dhiway.com/" target="_blank" rel="noreferrer">
-                <StaticImage
-                  src="./images/sponsors/dhiway.png"
-                  alt="Dhiway Logo"
-                  placeholder="blurred"
-                />
-              </a>
-            </Card>,
-            <Card
-              elevation={4}
-              sx={{
-                width: "24%",
-                margin: 1.75,
-                borderRadius: "10px",
-                overflow: "hidden",
-              }}
-            >
-              <a href="https://mira.money/" target="_blank" rel="noreferrer">
-                <StaticImage
-                  src="./images/sponsors/mira.png"
-                  alt="Mira Money Logo"
-                  placeholder="blurred"
-                />
-              </a>
-            </Card>,
-          ],
-        ],
-      },
-      {
-        title: <Typography variant="h4">In-kind Partners</Typography>,
-        sponsorRows: [
-          [
-            <Card
-              elevation={4}
-              sx={{
-                width: "20%",
-                margin: 2,
-                borderRadius: "10px",
-                overflow: "hidden",
-              }}
-            >
-              <a
-                href="https://www.instagram.com/underthecloche/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <StaticImage
-                  src="./images/sponsors/under-the-cloche.png"
-                  alt="Under The Cloche Logo"
-                  placeholder="blurred"
-                />
-              </a>
-            </Card>,
-            <Card
-              elevation={4}
-              sx={{
-                width: "20%",
-                margin: 2,
-                borderRadius: "34px",
-                overflow: "hidden",
-              }}
-            >
-              <a href="https://modfy.video/" target="_blank" rel="noreferrer">
-                <StaticImage
-                  src="./images/sponsors/modfy.png"
-                  alt="Modfy Logo"
-                  placeholder="blurred"
-                />
-              </a>
-            </Card>,
-          ],
-        ],
-      },
+      // {
+      //   title: (
+      //     <Typography variant="h3" sx={{ marginBottom: "12px" }}>
+      //       Financial Partners
+      //     </Typography>
+      //   ),
+      //   sponsorRows: [
+      //     [
+      //       <Card
+      //         elevation={4}
+      //         sx={{
+      //           width: "24%",
+      //           margin: 1.75,
+      //           borderRadius: "10px",
+      //           overflow: "hidden",
+      //         }}
+      //       >
+      //         <a
+      //           href="https://www.innominds.com/about"
+      //           target="_blank"
+      //           rel="noreferrer"
+      //         >
+      //           <StaticImage
+      //             src="./images/sponsors/innominds.png"
+      //             alt="Innominds Logo"
+      //             placeholder="blurred"
+      //           />
+      //         </a>
+      //       </Card>,
+      //       <Card
+      //         elevation={4}
+      //         sx={{
+      //           width: "24%",
+      //           margin: 1.75,
+      //           borderRadius: "10px",
+      //           overflow: "hidden",
+      //         }}
+      //       >
+      //         <a href="https://dhiway.com/" target="_blank" rel="noreferrer">
+      //           <StaticImage
+      //             src="./images/sponsors/dhiway.png"
+      //             alt="Dhiway Logo"
+      //             placeholder="blurred"
+      //           />
+      //         </a>
+      //       </Card>,
+      //       <Card
+      //         elevation={4}
+      //         sx={{
+      //           width: "24%",
+      //           margin: 1.75,
+      //           borderRadius: "10px",
+      //           overflow: "hidden",
+      //         }}
+      //       >
+      //         <a href="https://mira.money/" target="_blank" rel="noreferrer">
+      //           <StaticImage
+      //             src="./images/sponsors/mira.png"
+      //             alt="Mira Money Logo"
+      //             placeholder="blurred"
+      //           />
+      //         </a>
+      //       </Card>,
+      //     ],
+      //   ],
+      // },
+      // {
+      //   title: <Typography variant="h4">In-kind Partners</Typography>,
+      //   sponsorRows: [
+      //     [
+      //       <Card
+      //         elevation={4}
+      //         sx={{
+      //           width: "20%",
+      //           margin: 2,
+      //           borderRadius: "10px",
+      //           overflow: "hidden",
+      //         }}
+      //       >
+      //         <a
+      //           href="https://www.instagram.com/underthecloche/"
+      //           target="_blank"
+      //           rel="noreferrer"
+      //         >
+      //           <StaticImage
+      //             src="./images/sponsors/under-the-cloche.png"
+      //             alt="Under The Cloche Logo"
+      //             placeholder="blurred"
+      //           />
+      //         </a>
+      //       </Card>,
+      //       <Card
+      //         elevation={4}
+      //         sx={{
+      //           width: "20%",
+      //           margin: 2,
+      //           borderRadius: "34px",
+      //           overflow: "hidden",
+      //         }}
+      //       >
+      //         <a href="https://modfy.video/" target="_blank" rel="noreferrer">
+      //           <StaticImage
+      //             src="./images/sponsors/modfy.png"
+      //             alt="Modfy Logo"
+      //             placeholder="blurred"
+      //           />
+      //         </a>
+      //       </Card>,
+      //     ],
+      //   ],
+      // },
     ],
   },
   photoArchiveSection: {

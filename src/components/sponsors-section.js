@@ -5,7 +5,7 @@ import siteData from "../site-data"
 function SponsorsSection() {
   return (
     <div align="center">
-      <Box sx={{ maxWidth: "1000px", width: "80vw" }}>
+      {/* <Box sx={{ maxWidth: "1000px", width: "80vw" }}>
         <Card elevation={5} sx={{ p: 3 }}>
           {siteData.sponsorsSection.sponsorGroups.map((sponsorGroup, index) => (
             <>
@@ -27,7 +27,7 @@ function SponsorsSection() {
             </>
           ))}
         </Card>
-      </Box>
+      </Box> */}
     </div>
   )
 }
