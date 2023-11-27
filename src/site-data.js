@@ -40,13 +40,7 @@ const typewriterContent = (
 type: <span className="string-highlight">'24 hour Overnight Hackathon'</span>, {"\n"}
 date: <span className="string-highlight">'20th and 21st January, 2024'</span>, {"\n"}
 location: <span className="string-highlight">'Oakridge International School Bengaluru'</span>, {"\n"}
-themes:[ {"\n"}
-<span className="string-highlight">'Transportation'</span>, {"\n"}
-<span className="string-highlight">'Education'</span>, {"\n"}
-<span className="string-highlight">'Environmental Sustainability'</span>, {"\n"}
-<span className="string-highlight">'Healthcare'</span>,  {"\n"}
-<span className="string-highlight">'Game Development (Juniors Only)'</span>, {"\n"}
-] {"\n"}
+themes: [<span className="string-highlight">'Coming Soon...'</span>] {"\n"}
 {"}"};
 </pre>
 )
@@ -58,9 +52,9 @@ const juniorSiteData = {
 
 const siteData = {
   juniorSiteData: juniorSiteData,
-  homepageSections: ["Themes", "Prizes", "FAQ", "Sponsors"],
+  homepageSections: ["Themes", "Prizes", "FAQ"],
   registerButton: {
-    text: "Registrations open soon!",
+    text: "Registrations Open Soon",
     url: "https://forms.gle/CJ3CEwH33nBvUvgeA",
     disabled: true,
   },
@@ -190,7 +184,7 @@ const siteData = {
     ],
   },
   prizesSection: {
-    cash: "Total cash prizes worth ₹1,00,000",
+    cash: "Total cash prizes worth more than ₹1,00,000",
     sponsor: "Exclusive participation perks from our sponsors",
   },
   faqSection: {
@@ -236,8 +230,8 @@ const siteData = {
             icon: <Laptop />,
             content: (
               <p>
-                We accept both software and hardware projects, but all
-                hardware components must be brought by the participants.
+                We accept both software and hardware projects, but all hardware
+                components must be brought by the participants.
               </p>
             ),
           },
@@ -337,9 +331,7 @@ const siteData = {
             title: "Should we bring an ID card?",
             icon: <Badge />,
             content: (
-              <p>
-                Yes, all participants must carry school ID cards with them.
-              </p>
+              <p>Yes, all participants must carry school ID cards with them.</p>
             ),
           },
           {
@@ -349,9 +341,10 @@ const siteData = {
               <p>
                 Students are encouraged to stay the entire night until the
                 closing ceremony ends on the next day. If necessary, they can
-                leave with their parents on the night of the 20th and return on the
-                morning of the 21st. A consent form needs to be signed and provided at
-                the start of the event if they are staying overnight.
+                leave with their parents on the night of the 20th and return on
+                the morning of the 21st. A consent form needs to be signed and
+                provided at the start of the event if they are staying
+                overnight.
               </p>
             ),
           },
@@ -390,9 +383,9 @@ const siteData = {
               <p>
                 Any language, technology stack, or library can be used to create
                 your solutions, except drag-and-drop software like Scratch or
-                MIT App Inventor. If you are unsure that your software Development
-                platform will not be allowed, please don't hesitate to mail us
-                to confirm.
+                MIT App Inventor. If you are unsure that your software
+                Development platform will not be allowed, please don't hesitate
+                to mail us to confirm.
               </p>
             ),
           },
@@ -426,9 +419,9 @@ const siteData = {
               <p>
                 Nothing relating to the project can be prepared beforehand. All
                 code and assets for the project, as well as any presentation the
-                participants wish to create, must be created during the event. If
-                participants are found to be reusing previously written code, they
-                will be immediately disqualified.
+                participants wish to create, must be created during the event.
+                If participants are found to be reusing previously written code,
+                they will be immediately disqualified.
               </p>
             ),
           },
@@ -498,8 +491,8 @@ const siteData = {
             <p>
               On this day, the event will end. Shortlisted teams will get the
               chance to present their projects to the judges, after which the
-              winners will be announced. Monetary prizes will be sent within
-              1 to 2 weeks post the event.
+              winners will be announced. Monetary prizes will be sent within 1
+              to 2 weeks post the event.
             </p>
           ),
         },
@@ -729,11 +722,11 @@ const siteData = {
       ),
     },
     {
-      name: "Aditya Bangolae",
+      name: "Adithya Bangolae",
       image: (
         <StaticImage
-          src="./images/portraits/jahnavi.jpg"
-          alt="Portrait of Jahnavi Thejo Prakash"
+          src="./images/portraits/pranav.jpg"
+          alt="Portrait of Adithya Bangolae"
           placeholder="blurred"
           aspectRatio={4 / 5}
         />
@@ -765,8 +758,8 @@ const siteData = {
       name: "Sachit Shastri",
       image: (
         <StaticImage
-          src="./images/portraits/saanika.jpg"
-          alt="Portrait of Saanika Gupta"
+          src="./images/portraits/sachit.jpg"
+          alt="Portrait of Sachit Shastri"
           placeholder="blurred"
           aspectRatio={4 / 5}
         />
