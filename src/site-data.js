@@ -365,7 +365,7 @@ const siteData = {
             icon: <MonetizationOn />,
             content: (
               <p>
-                The ₹500 will cover all services provided by us including your
+                The ₹1000 will cover all services provided by us including your
                 snacks, accommodation, and eligibility for the rewards provided
                 by our sponsors.
               </p>
@@ -431,7 +431,8 @@ const siteData = {
             content: (
               <p>
                 No, any submission made to the event must be developed within
-                the 24-hour time limit and must fit the selected theme.
+                the 24-hour time limit, must adhere to the description provided during
+                registration and must fit the selected theme.
               </p>
             ),
           },
@@ -444,7 +445,7 @@ const siteData = {
         {
           title: "Registration Opens",
           icon: <ContactMail />,
-          date: "7th of December",
+          date: "11th of December",
           description: (
             <p>
               Participants are expected to sign up for the event and submit
@@ -467,7 +468,7 @@ const siteData = {
         {
           title: "Registration Closes",
           icon: <PendingActions />,
-          date: "20th of January",
+          date: "18th of January",
           description: (
             <p>
               Participants will not be allowed to register after this date. All
@@ -725,7 +726,7 @@ const siteData = {
       name: "Adithya Bangolae",
       image: (
         <StaticImage
-          src="./images/portraits/pranav.jpg"
+          src="./images/portraits/adithya.jpeg"
           alt="Portrait of Adithya Bangolae"
           placeholder="blurred"
           aspectRatio={4 / 5}
