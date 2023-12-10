@@ -18,6 +18,7 @@ import {
   Backpack,
   Restaurant,
   ReceiptLong,
+  Gavel,
   Wifi,
   Badge,
   EscalatorWarning,
@@ -71,7 +72,7 @@ const siteData = {
       icon: <Style sx={{ fontSize: "54px" }} />,
       title: "Themes",
       content:
-        "With a multitude of impactful themes, the participants will be tackling current technical problems with innovative improvements and solutions.",
+        "With a multitude of impactful themes, the participants will be tackling current technical problems with innovative improvements and solutions. (Coming soon)",
     },
     {
       icon: <EmojiEvents sx={{ fontSize: "54px" }} />,
@@ -184,7 +185,7 @@ const siteData = {
     ],
   },
   prizesSection: {
-    cash: "Total cash prizes worth more than ₹1,55,000",
+    cash: "Large cash prizes for all winners",
     sponsor: "Exclusive participation perks from our sponsors",
   },
   faqSection: {
@@ -232,6 +233,19 @@ const siteData = {
               <p>
                 We accept both software and hardware projects, but all hardware
                 components must be brought by the participants.
+              </p>
+            ),
+          },
+          {
+            title: "How will our projects be judged?",
+            icon: <Gavel />,
+            content: (
+              <p>
+                There will be four audit rounds taking place throughout the event
+                in which your team will present your progress and plans. Based off
+                of these rounds, a select number of teams will be shortlisted to
+                present their project in front of a panel of judges who will
+                determine the winners.
               </p>
             ),
           },
@@ -334,20 +348,20 @@ const siteData = {
               <p>Yes, all participants must carry school ID cards with them.</p>
             ),
           },
-          {
-            title: "Are we allowed to leave the venue and join back?",
-            icon: <Logout />,
-            content: (
-              <p>
-                Students are encouraged to stay the entire night until the
-                closing ceremony ends on the next day. If necessary, they can
-                leave with their parents on the night of the 20th and return on
-                the morning of the 21st. A consent form needs to be signed and
-                provided at the start of the event if they are staying
-                overnight.
-              </p>
-            ),
-          },
+          // {
+          //   title: "Are we allowed to leave the venue and join back?",
+          //   icon: <Logout />,
+          //   content: (
+          //     <p>
+          //       Students are encouraged to stay the entire night until the
+          //       closing ceremony ends on the next day. If necessary, they can
+          //       leave with their parents on the night of the 20th and return on
+          //       the morning of the 21st. A consent form needs to be signed and
+          //       provided at the start of the event if they are staying
+          //       overnight.
+          //     </p>
+          //   ),
+          // },
           {
             title: "Are we allowed to code overnight with our teammates?",
             icon: <Bedtime />,
