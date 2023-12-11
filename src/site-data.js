@@ -55,12 +55,12 @@ const siteData = {
   juniorSiteData: juniorSiteData,
   homepageSections: ["Themes", "Prizes", "FAQ"],
   registerButton: {
-    text: "Registrations Open Soon",
-    url: "https://forms.gle/CJ3CEwH33nBvUvgeA",
-    disabled: true,
+    text: "Register Now",
+    url: "https://77jdzhg9met.typeform.com/to/nv1KVJPK",
+    disabled: false,
   },
   typewriterContent: typewriterContent,
-  codefestEndDate: "January 20 2024 11:00:00 GMT+0530",
+  codefestEndDate: "January 20 2024 10:00:00 GMT+0530",
   introCardSections: [
     {
       icon: <Tungsten sx={{ fontSize: "54px" }} />,
