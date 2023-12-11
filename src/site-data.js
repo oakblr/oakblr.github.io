@@ -185,7 +185,7 @@ const siteData = {
     ],
   },
   prizesSection: {
-    cash: "Large cash prizes for all winners",
+    cash: "Total cash prize pool of Rs. 1.5L+",
     sponsor: "Exclusive participation perks from our sponsors",
   },
   faqSection: {
@@ -379,7 +379,7 @@ const siteData = {
             icon: <MonetizationOn />,
             content: (
               <p>
-                The ₹1000 will cover all services provided by us including your
+                The fees will cover all services provided by us including your
                 snacks, accommodation, and eligibility for the rewards provided
                 by our sponsors.
               </p>
