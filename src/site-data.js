@@ -41,8 +41,14 @@ const typewriterContent = (
 type: <span className="string-highlight">'24 hour Overnight Hackathon'</span>, {"\n"}
 date: <span className="string-highlight">'20th and 21st January, 2024'</span>, {"\n"}
 location: <span className="string-highlight">'Oakridge International School Bengaluru'</span>, {"\n"}
-themes: [<span className="string-highlight">'Coming Soon...'</span>] {"\n"}
-{"}"};
+themes:[ {"\n"}
+<span className="string-highlight">'Eco-Tourism'</span>, {"\n"}
+<span className="string-highlight">'Pedagogical Tools'</span>, {"\n"}
+<span className="string-highlight">'Urban Transit'</span>, {"\n"}
+<span className="string-highlight">'AI on Edge Compute Platforms'</span>,  {"\n"}
+<span className="string-highlight">'Fin-Tech Innovation'</span>,  {"\n"}
+<span className="string-highlight">'Game Development (Juniors Only)'</span>, {"\n"}
+] {"\n"}{"}"};
 </pre>
 )
 
@@ -55,9 +61,9 @@ const siteData = {
   juniorSiteData: juniorSiteData,
   homepageSections: ["Themes", "Prizes", "FAQ"],
   registerButton: {
-    text: "Register Now",
+    text: "Reg. Paused",
     url: "https://77jdzhg9met.typeform.com/to/nv1KVJPK",
-    disabled: false,
+    disabled: true,
   },
   typewriterContent: typewriterContent,
   codefestEndDate: "January 20 2024 10:00:00 GMT+0530",
@@ -72,7 +78,7 @@ const siteData = {
       icon: <Style sx={{ fontSize: "54px" }} />,
       title: "Themes",
       content:
-        "With a multitude of impactful themes, the participants will be tackling current technical problems with innovative improvements and solutions. (Coming soon)",
+        "With a multitude of impactful themes, the participants will be tackling current technical problems with innovative improvements and solutions.",
     },
     {
       icon: <EmojiEvents sx={{ fontSize: "54px" }} />,
@@ -85,8 +91,10 @@ const siteData = {
     title: "Themes for Oakridge Codefest (2024)",
     description: (
       <>
-        Teams are expected to select one primary theme for their project but are
-        allowed and encouraged to choose more secondary themes. For more
+        Teams are expected to select one primary theme for their project but are 
+        allowed and encouraged to choose more secondary themes. Please remember, 
+        the project ideas are just ideas, not strict guidelines, you have the 
+        freedom to roam the bounds and innovate within the theme. For more 
         information regarding the themes, please email us at{" "}
         <a href="mailto:codefest@oakridge.in">codefest@oakridge.in</a>
       </>
@@ -94,89 +102,86 @@ const siteData = {
     themes: [
       [
         {
-          name: "Transportation",
-          icon: <DirectionsBus />,
+          name: "Eco-Tourism",
+          icon: <LocalFlorist />,
           description: (
             <p>
-              Humans around the world commute millions of miles every single
-              day. A significant fraction of our day is spent traveling.
-              Technology has played a very significant role in enabling more
-              people to commute. Technology has fundamentally redefined the way
-              we travel. Imagine how technology can improve human experience
-              even further in day-to-day transportation and commute. What can
-              technology do to make public and private transportation much
-              simpler and safer?
+              Dive into sustainable travel with the Eco-Tourism theme. Participants 
+              will develop tech-driven solutions to promote eco-tourism, facilitating 
+              travel that respects nature and local cultures while offering educational 
+              experiences for travellers. 
             </p>
           ),
           example: (
             <p>
-              Examples: Ride Sharing Application, Road Safety Reporting System
+              Example Project Ideas: National Park Watchdog App, Green Tour Package Planner 
             </p>
           ),
         },
         {
-          name: "Education",
+          name: "Pedagogical Tools",
           icon: <Book />,
           description: (
             <p>
-              Education develops effective leaders and innovators of tomorrow.
-              Technology has played a significant role in recent years in
-              allowing education to have a larger reach and allowing the
-              teaching and learning processes to occur more smoothly. Especially
-              during the current pandemic, the internet and video call services
-              have allowed for learning to continue even while we are restricted
-              at home. How can you use your technological skills to improve
-              education?
+              This theme invites you to revolutionize the educational sphere by 
+              creating tools and applications aimed at enhancing teacher efficiency. 
+              Innovate to empower educators, streamline their workflow, and transform 
+              the teaching experience. 
             </p>
           ),
-          example: <p>Examples: Worksheet Generator and Note Taking App</p>,
+          example: <p>Examples: Virtual Reality Interactive Classroom, Online Quiz Software </p>,
         },
         {
-          name: "Environmental Sustainability",
-          icon: <LocalFlorist />,
+          name: "Urban Transit Solutions",
+          icon: <DirectionsBus />,
           description: (
             <p>
-              Sustainability refers to creating a world that can be prosperous
-              and habitable for future generations, and as society progresses,
-              technology will be at the crux of maintaining sustainability. From
-              new and more efficient uses of energy to combating deforestation,
-              technology's importance to sustainability has been especially
-              pronounced in recent years. What can you do with technology to
-              create a more sustainable world?
+              This theme focuses on redefining city mobility. Participants will craft accessible, 
+              user-friendly tech solutions to innovate public or private transit 
+              systems, making urban transportation more efficient and accessible. 
             </p>
           ),
-          example: <p>Examples: Carbon Footprint Calculator and Smart Bulb</p>,
+          example: <p>Example Project Ideas: Crowd Data based Routes Planner, Transit Availability Notifier </p>,
         },
       ],
       [
         {
-          name: "Healthcare",
-          icon: <LocalHospital />,
+          name: "AI on Edge Compute Platforms",
+          icon: <Laptop />,
           description: (
             <p>
-              Health care is an essential service, and our ability to provide
-              quality health care as well as store, share and analyze health
-              information is directly tied to improved technology. Particularly
-              with the recent situation of the COVID-19 pandemic, technology has
-              been used to create solutions to track and minimize the spread of
-              the virus. We look forward to seeing what technological creations
-              you will develop to contribute to this field.
+              Venture into the world of on-device AI with this theme. Participants 
+              develop inventive uses of edge computing (processing on a local computer 
+              such as a laptop or Raspberry Pi) to produce compact AI solutions that 
+              process data locally, bypassing the cloud for faster and more secure 
+              on-site decisions. 
             </p>
           ),
-          example: <p>Examples: Fitness Tracker and Smart Health Monitor</p>,
+          example: <p>Example Project Ideas: Local-LLM Based Assistant, Offline Facial Recognition System</p>,
+        },
+        {
+          name: "Fin-Tech Innovation",
+          icon: <MonetizationOn />,
+          description: (
+            <p>
+              Explore the vast intersection between finance and technology with this 
+              theme. Participants may innovate in anything, from developing decentralised 
+              finance platforms, to increasing the inclusivity and accessibility of 
+              smart personal savings and investment strategies. 
+            </p>
+          ),
+          example: <p>Example Project Ideas: Behavioural Personal Finance Tracker, ESG Investment Platform </p>,
         },
         {
           name: "Game Development (6-8th Grade)",
           icon: <VideogameAsset />,
           description: (
             <p>
-              Video games are a great way to have fun and learn code at the same
-              time! <br />
-              <br /> For this theme, we expect participants to be creative and
-              innovative and have some kind of unique idea or message in it.
-              Participants need to use programming languages, and drag and
-              drop/WYSIWYG applications such as Scratch and MIT App Inventor are
-              strictly not allowed.
+              Discover the thrill of creating whole new digital worlds. We 
+              invite participants to delve into their imaginations and forge realms 
+              of their own, infusing creativity and ingenuity into their unique and 
+              innovative games. This theme is all about breaking boundaries and having 
+              fun along the way. 
             </p>
           ),
           example: null,

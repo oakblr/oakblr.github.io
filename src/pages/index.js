@@ -26,6 +26,8 @@ const IndexPage = () => {
         <Countdown />
         <div style={{ margin: "20px" }}></div>
         <IntroCard />
+        <div id="Themes" style={{ margin: "32px" }}></div>
+        <ThemesSection />
         <div id="Prizes" style={{ margin: "20px" }}></div>
         <PrizesSection />
         <div id="FAQ" style={{ margin: "20px" }}></div>
