@@ -61,9 +61,9 @@ const siteData = {
   juniorSiteData: juniorSiteData,
   homepageSections: ["Themes", "Prizes", "FAQ"],
   registerButton: {
-    text: "Reg. Paused",
-    url: "https://77jdzhg9met.typeform.com/to/nv1KVJPK",
-    disabled: true,
+    text: "Register now!",
+    url: "https://77jdzhg9met.typeform.com/to/HDSGWYKH",
+    disabled: false,
   },
   typewriterContent: typewriterContent,
   codefestEndDate: "January 20 2024 10:00:00 GMT+0530",
@@ -384,7 +384,7 @@ const siteData = {
             icon: <MonetizationOn />,
             content: (
               <p>
-                The fees will cover all services provided by us including your
+                The Rs. 1250 (or Rs. 1000 for internal students) will cover all services provided by us including your
                 snacks, accommodation, and eligibility for the rewards provided
                 by our sponsors.
               </p>
