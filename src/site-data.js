@@ -384,7 +384,7 @@ const siteData = {
             icon: <MonetizationOn />,
             content: (
               <p>
-                The Rs. 1250 (or Rs. 1000 for internal students) will cover all services provided by us including your
+                The Rs. 1000 will cover all services provided by us including your
                 snacks, accommodation, and eligibility for the rewards provided
                 by our sponsors.
               </p>
