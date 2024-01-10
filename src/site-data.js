@@ -297,8 +297,7 @@ const siteData = {
                 participants only during the event. If you want to, you are also
                 allowed to bring your own sleeping bags. Participants will have
                 to arrange for their own accommodation before and after the
-                event if required. Bus transportation will also be provided for
-                all Oakridge students.
+                event if required.
               </p>
             ),
           },
