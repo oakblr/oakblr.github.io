@@ -486,7 +486,7 @@ const siteData = {
         {
           title: "Registration Closes",
           icon: <PendingActions />,
-          date: "18th of January",
+          date: "16th of January",
           description: (
             <p>
               Participants will not be allowed to register after this date. All
