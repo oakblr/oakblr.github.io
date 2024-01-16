@@ -61,8 +61,13 @@ const siteData = {
   juniorSiteData: juniorSiteData,
   homepageSections: ["Themes", "Prizes", "FAQ"],
   registerButton: {
+<<<<<<< HEAD
     text: "Register now!",
     url: "https://77jdzhg9met.typeform.com/to/HDSGWYKH",
+=======
+    text: "Register Now",
+    url: "https://forms.gle/gb9AiGdk6ctEBmbm8",
+>>>>>>> 1c98bee (update form)
     disabled: false,
   },
   typewriterContent: typewriterContent,
@@ -246,11 +251,11 @@ const siteData = {
             icon: <Gavel />,
             content: (
               <p>
-                There will be four audit rounds taking place throughout the event
-                in which your team will present your progress and plans. Based off
-                of these rounds, a select number of teams will be shortlisted to
-                present their project in front of a panel of judges who will
-                determine the winners.
+                There will be four audit rounds taking place throughout the
+                event in which your team will present your progress and plans.
+                Based off of these rounds, a select number of teams will be
+                shortlisted to present their project in front of a panel of
+                judges who will determine the winners.
               </p>
             ),
           },
@@ -449,8 +454,8 @@ const siteData = {
             content: (
               <p>
                 No, any submission made to the event must be developed within
-                the 24-hour time limit, must adhere to the description provided during
-                registration and must fit the selected theme.
+                the 24-hour time limit, must adhere to the description provided
+                during registration and must fit the selected theme.
               </p>
             ),
           },
