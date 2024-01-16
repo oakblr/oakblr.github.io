@@ -61,13 +61,8 @@ const siteData = {
   juniorSiteData: juniorSiteData,
   homepageSections: ["Themes", "Prizes", "FAQ"],
   registerButton: {
-<<<<<<< HEAD
-    text: "Register now!",
-    url: "https://77jdzhg9met.typeform.com/to/HDSGWYKH",
-=======
     text: "Register Now",
     url: "https://forms.gle/gb9AiGdk6ctEBmbm8",
->>>>>>> 1c98bee (update form)
     disabled: false,
   },
   typewriterContent: typewriterContent,
@@ -96,10 +91,10 @@ const siteData = {
     title: "Themes for Oakridge Codefest (2024)",
     description: (
       <>
-        Teams are expected to select one primary theme for their project but are 
-        allowed and encouraged to choose more secondary themes. Please remember, 
-        the project ideas are just ideas, not strict guidelines, you have the 
-        freedom to roam the bounds and innovate within the theme. For more 
+        Teams are expected to select one primary theme for their project but are
+        allowed and encouraged to choose more secondary themes. Please remember,
+        the project ideas are just ideas, not strict guidelines, you have the
+        freedom to roam the bounds and innovate within the theme. For more
         information regarding the themes, please email us at{" "}
         <a href="mailto:codefest@oakridge.in">codefest@oakridge.in</a>
       </>
@@ -111,15 +106,16 @@ const siteData = {
           icon: <LocalFlorist />,
           description: (
             <p>
-              Dive into sustainable travel with the Eco-Tourism theme. Participants 
-              will develop tech-driven solutions to promote eco-tourism, facilitating 
-              travel that respects nature and local cultures while offering educational 
-              experiences for travellers. 
+              Dive into sustainable travel with the Eco-Tourism theme.
+              Participants will develop tech-driven solutions to promote
+              eco-tourism, facilitating travel that respects nature and local
+              cultures while offering educational experiences for travellers.
             </p>
           ),
           example: (
             <p>
-              Example Project Ideas: National Park Watchdog App, Green Tour Package Planner 
+              Example Project Ideas: National Park Watchdog App, Green Tour
+              Package Planner
             </p>
           ),
         },
@@ -128,25 +124,36 @@ const siteData = {
           icon: <Book />,
           description: (
             <p>
-              This theme invites you to revolutionize the educational sphere by 
-              creating tools and applications aimed at enhancing teacher efficiency. 
-              Innovate to empower educators, streamline their workflow, and transform 
-              the teaching experience. 
+              This theme invites you to revolutionize the educational sphere by
+              creating tools and applications aimed at enhancing teacher
+              efficiency. Innovate to empower educators, streamline their
+              workflow, and transform the teaching experience.
             </p>
           ),
-          example: <p>Examples: Virtual Reality Interactive Classroom, Online Quiz Software </p>,
+          example: (
+            <p>
+              Examples: Virtual Reality Interactive Classroom, Online Quiz
+              Software{" "}
+            </p>
+          ),
         },
         {
           name: "Urban Transit Solutions",
           icon: <DirectionsBus />,
           description: (
             <p>
-              This theme focuses on redefining city mobility. Participants will craft accessible, 
-              user-friendly tech solutions to innovate public or private transit 
-              systems, making urban transportation more efficient and accessible. 
+              This theme focuses on redefining city mobility. Participants will
+              craft accessible, user-friendly tech solutions to innovate public
+              or private transit systems, making urban transportation more
+              efficient and accessible.
             </p>
           ),
-          example: <p>Example Project Ideas: Crowd Data based Routes Planner, Transit Availability Notifier </p>,
+          example: (
+            <p>
+              Example Project Ideas: Crowd Data based Routes Planner, Transit
+              Availability Notifier{" "}
+            </p>
+          ),
         },
       ],
       [
@@ -155,38 +162,48 @@ const siteData = {
           icon: <Laptop />,
           description: (
             <p>
-              Venture into the world of on-device AI with this theme. Participants 
-              develop inventive uses of edge computing (processing on a local computer 
-              such as a laptop or Raspberry Pi) to produce compact AI solutions that 
-              process data locally, bypassing the cloud for faster and more secure 
-              on-site decisions. 
+              Venture into the world of on-device AI with this theme.
+              Participants develop inventive uses of edge computing (processing
+              on a local computer such as a laptop or Raspberry Pi) to produce
+              compact AI solutions that process data locally, bypassing the
+              cloud for faster and more secure on-site decisions.
             </p>
           ),
-          example: <p>Example Project Ideas: Local-LLM Based Assistant, Offline Facial Recognition System</p>,
+          example: (
+            <p>
+              Example Project Ideas: Local-LLM Based Assistant, Offline Facial
+              Recognition System
+            </p>
+          ),
         },
         {
           name: "Fin-Tech Innovation",
           icon: <MonetizationOn />,
           description: (
             <p>
-              Explore the vast intersection between finance and technology with this 
-              theme. Participants may innovate in anything, from developing decentralised 
-              finance platforms, to increasing the inclusivity and accessibility of 
-              smart personal savings and investment strategies. 
+              Explore the vast intersection between finance and technology with
+              this theme. Participants may innovate in anything, from developing
+              decentralised finance platforms, to increasing the inclusivity and
+              accessibility of smart personal savings and investment strategies.
             </p>
           ),
-          example: <p>Example Project Ideas: Behavioural Personal Finance Tracker, ESG Investment Platform </p>,
+          example: (
+            <p>
+              Example Project Ideas: Behavioural Personal Finance Tracker, ESG
+              Investment Platform{" "}
+            </p>
+          ),
         },
         {
           name: "Game Development (6-8th Grade)",
           icon: <VideogameAsset />,
           description: (
             <p>
-              Discover the thrill of creating whole new digital worlds. We 
-              invite participants to delve into their imaginations and forge realms 
-              of their own, infusing creativity and ingenuity into their unique and 
-              innovative games. This theme is all about breaking boundaries and having 
-              fun along the way. 
+              Discover the thrill of creating whole new digital worlds. We
+              invite participants to delve into their imaginations and forge
+              realms of their own, infusing creativity and ingenuity into their
+              unique and innovative games. This theme is all about breaking
+              boundaries and having fun along the way.
             </p>
           ),
           example: null,
@@ -388,9 +405,9 @@ const siteData = {
             icon: <MonetizationOn />,
             content: (
               <p>
-                The Rs. 1000 will cover all services provided by us including your
-                snacks, accommodation, and eligibility for the rewards provided
-                by our sponsors.
+                The Rs. 1000 will cover all services provided by us including
+                your snacks, accommodation, and eligibility for the rewards
+                provided by our sponsors.
               </p>
             ),
           },
