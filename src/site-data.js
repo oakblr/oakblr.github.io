@@ -766,7 +766,7 @@ const siteData = {
       name: "Adithya Bangolae",
       image: (
         <StaticImage
-          src="./images/portraits/adithya.jpeg"
+          src="./images/portraits/adithya.jpg"
           alt="Portrait of Adithya Bangolae"
           placeholder="blurred"
           aspectRatio={4 / 5}
