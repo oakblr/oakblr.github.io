@@ -37,18 +37,21 @@ import { StaticImage } from "gatsby-plugin-image"
 // prettier-ignore
 const typewriterContent = (
 <pre style={{whiteSpace: "pre-line"}}>
-<span className="var-highlight">Oakridge Codefest</span> 2024 = {"{"} {"\n"}
+<span className="var-highlight">Oakridge Codefest</span> 2025 = {"{"} {"\n"}
+
 type: <span className="string-highlight">'24 hour Overnight Hackathon'</span>, {"\n"}
-date: <span className="string-highlight">'20th and 21st January, 2024'</span>, {"\n"}
-location: <span className="string-highlight">'Oakridge International School Bengaluru'</span>, {"\n"}
-themes:[ {"\n"}
+date: <span className="string-highlight">'TBD'</span>, {"\n"}
+location: <span className="string-highlight">'Oakridge International School, Bengaluru'</span>, {"\n"}
+{/* themes:[ {"\n"}
 <span className="string-highlight">'Eco-Tourism'</span>, {"\n"}
 <span className="string-highlight">'Pedagogical Tools'</span>, {"\n"}
 <span className="string-highlight">'Urban Transit'</span>, {"\n"}
 <span className="string-highlight">'AI on Edge Compute Platforms'</span>,  {"\n"}
 <span className="string-highlight">'Fin-Tech Innovation'</span>,  {"\n"}
 <span className="string-highlight">'Game Development (Juniors Only)'</span>, {"\n"}
-] {"\n"}{"}"};
+] */}
+themes: <span className="string-highlight">'TBD'</span>
+{"\n"}{"}"};
 </pre>
 )
 
@@ -61,9 +64,9 @@ const siteData = {
   juniorSiteData: juniorSiteData,
   homepageSections: ["Themes", "Prizes", "FAQ"],
   registerButton: {
-    text: "Register Now",
+    text: "Coming Soon...",
     url: "https://forms.gle/gb9AiGdk6ctEBmbm8",
-    disabled: false,
+    disabled: true,
   },
   typewriterContent: typewriterContent,
   codefestEndDate: "January 20 2024 10:00:00 GMT+0530",
@@ -72,7 +75,7 @@ const siteData = {
       icon: <Tungsten sx={{ fontSize: "54px" }} />,
       title: "What is Codefest?",
       content:
-        "Oakridge Codefest is one of India's largest high-school hackathons that provides the opportunity for aspiring developers to showcase their unique talents to both each other and veterans of the industry.",
+        "Oakridge Codefest is India's largest in-person high-school hackathon, providing the opportunity for aspiring developers to showcase their unique talents to both each other and veterans of the industry.",
     },
     {
       icon: <Style sx={{ fontSize: "54px" }} />,
@@ -480,7 +483,7 @@ const siteData = {
       },
     ],
     timelineSection: {
-      title: "Important dates",
+      title: "Important dates (2024)",
       timeline: [
         {
           title: "Registration Opens",
