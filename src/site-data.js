@@ -66,8 +66,8 @@ const siteData = {
   homepageSections: ["Prizes", "FAQ"],
   registerButton: {
     text: "Register Now!",
-    internalUrl: "https://forms.gle/gb9AiGdk6ctEBmbm8",
-    externalUrl: "https://forms.gle/gb9AiGdk6ctEBmbm8",
+    internalUrl: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAChI0I5UMVY5VU5aRkhUOThIQ0ZCNVA1SzNHRU82Ry4u",
+    externalUrl: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAChI0I5UMDA1NDBLVkpONVA1R0RRWVVRUEFWSUU2Qi4u",
     disabled: false,
   },
   typewriterContent: typewriterContent,
