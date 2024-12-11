@@ -14,6 +14,7 @@ import {
 } from "@mui/material"
 import MenuIcon from "@mui/icons-material/Menu"
 import siteData from "../site-data"
+import RegisterDropdownNav from "./register-dropdown-nav"
 
 function HomePageNavBar() {
   const pages = siteData.homepageSections
@@ -30,8 +31,12 @@ function HomePageNavBar() {
     window.scrollTo({ top: p, behavior: "smooth" })
   }
 
-  const goToRegistrationForm = () => {
-    window.location = "https://forms.gle/CJ3CEwH33nBvUvgeA"
+  const goToInternalRegistrationForm = () => {
+    window.location = siteData.registerButton.internalUrl;
+  }
+
+  const goToExternalRegistrationForm = () => {
+    window.location = siteData.registerButton.externalUrl;
   }
 
   return (
@@ -93,14 +98,25 @@ function HomePageNavBar() {
                 </MenuItem>
               ))}
               <MenuItem
-                key="Register"
+                key="RegisterInt"
                 onClick={() => {
                   handleCloseNavMenu()
-                  goToRegistrationForm()
+                  goToInternalRegistrationForm()
                 }}
               >
-                <Typography textAlign="center">Register</Typography>
+                <Typography textAlign="center">Register (Oakridgers) </Typography>
               </MenuItem>
+
+              <MenuItem
+                key="RegisterExt"
+                onClick={() => {
+                  handleCloseNavMenu()
+                  goToExternalRegistrationForm()
+                }}
+              >
+                <Typography textAlign="center">Register (Non-Oakridgers) </Typography>
+              </MenuItem>
+
             </Menu>
           </Box>
           <Box
@@ -147,22 +163,7 @@ function HomePageNavBar() {
             ))}
           </Box>
           <Box sx={{ display: { xs: "none", sm: "flex" } }}>
-            <Button
-              href={siteData.registerButton.url}
-              target="_blank"
-              rel="noreferrer"
-              disabled={siteData.registerButton.disabled}
-              sx={{
-                width: 150, // Change back to 150 later
-                mx: 1,
-                my: 2,
-                textAlign: "center",
-                display: "block",
-              }}
-              variant="contained"
-            >
-              {siteData.registerButton.text}
-            </Button>
+            <RegisterDropdownNav />
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", sm: "none" } }}>
             <IconButton size="large" />

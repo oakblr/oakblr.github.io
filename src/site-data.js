@@ -40,7 +40,7 @@ const typewriterContent = (
 <span className="var-highlight">Oakridge Codefest</span> 2025 = {"{"} {"\n"}
 
 type: <span className="string-highlight">'24 hour Overnight Hackathon'</span>, {"\n"}
-date: <span className="string-highlight">'TBD'</span>, {"\n"}
+date: <span className="string-highlight">'11th and 12th January, 2025'</span>, {"\n"}
 location: <span className="string-highlight">'Oakridge International School, Bengaluru'</span>, {"\n"}
 {/* themes:[ {"\n"}
 <span className="string-highlight">'Eco-Tourism'</span>, {"\n"}
@@ -56,20 +56,22 @@ themes: <span className="string-highlight">'TBD'</span>
 )
 
 const juniorSiteData = {
-  title: "Coming Soon",
-  description: "Oakridge Codefest is coming soon to children from grades 3-5.",
+  title: "Dates yet to be announced",
+  description: "Oakridge Codefest has been extended to Grades 4-5 to provide a collaborative experience for younger coders.",
 }
 
 const siteData = {
   juniorSiteData: juniorSiteData,
-  homepageSections: ["Themes", "Prizes", "FAQ"],
+  // homepageSections: ["Themes", "Prizes", "FAQ"],
+  homepageSections: ["Prizes", "FAQ"],
   registerButton: {
-    text: "Coming Soon...",
-    url: "https://forms.gle/gb9AiGdk6ctEBmbm8",
-    disabled: true,
+    text: "Register Now!",
+    internalUrl: "https://forms.gle/gb9AiGdk6ctEBmbm8",
+    externalUrl: "https://forms.gle/gb9AiGdk6ctEBmbm8",
+    disabled: false,
   },
   typewriterContent: typewriterContent,
-  codefestEndDate: "January 20 2024 10:00:00 GMT+0530",
+  codefestEndDate: "January 12 2025 10:00:00 GMT+0530",
   introCardSections: [
     {
       icon: <Tungsten sx={{ fontSize: "54px" }} />,
@@ -91,7 +93,7 @@ const siteData = {
     },
   ],
   themesSection: {
-    title: "Themes for Oakridge Codefest (2024)",
+    title: "Themes for Oakridge Codefest (2025)",
     description: (
       <>
         Teams are expected to select one primary theme for their project but are
@@ -344,9 +346,9 @@ const siteData = {
             icon: <SupervisorAccount />,
             content: (
               <p>
-                Participants are advised to report with a teacher. Please notify
-                us if there are issues getting a mentor or teacher so we can
-                make necessary arrangements.
+                Junior participants are required to report with a teacher supervisor. Senior participants
+                must notify us (over e-mail) if they have issues with getting a supervisor so 
+                we can make necessary arrangements.
               </p>
             ),
           },
@@ -483,7 +485,7 @@ const siteData = {
       },
     ],
     timelineSection: {
-      title: "Important dates (2024)",
+      title: "Important dates (2024/2025)",
       timeline: [
         {
           title: "Registration Opens",
@@ -499,7 +501,7 @@ const siteData = {
         {
           title: "Early Bird Registrations close",
           icon: <PendingActions />,
-          date: "2nd of January",
+          date: "25th of December",
           description: (
             <p>
               The early bird registration period will end on the 1st. After
@@ -511,7 +513,7 @@ const siteData = {
         {
           title: "Registration Closes",
           icon: <PendingActions />,
-          date: "16th of January",
+          date: "6th of January",
           description: (
             <p>
               Participants will not be allowed to register after this date. All
@@ -522,7 +524,7 @@ const siteData = {
         {
           title: "Event Starts",
           icon: <Event />,
-          date: "20th of January",
+          date: "11th of January",
           description: (
             <p>Participants are expected to reach the campus by 8:30am.</p>
           ),
@@ -530,7 +532,7 @@ const siteData = {
         {
           title: "Event Ends",
           icon: <Event />,
-          date: "21st of January",
+          date: "12th of January",
           description: (
             <p>
               On this day, the event will end. Shortlisted teams will get the
@@ -744,28 +746,6 @@ const siteData = {
   },
   coreTeamMembers: [
     {
-      name: "Aagney Gorthi",
-      image: (
-        <StaticImage
-          src="./images/portraits/aagney.jpg"
-          alt="Portrait of Aagney Gorthi"
-          placeholder="blurred"
-          aspectRatio={4 / 5}
-        />
-      ),
-    },
-    {
-      name: "Aditya Lingam",
-      image: (
-        <StaticImage
-          src="./images/portraits/aditya.jpg"
-          alt="Portrait of Aditya Lingam"
-          placeholder="blurred"
-          aspectRatio={4 / 5}
-        />
-      ),
-    },
-    {
       name: "Adithya Bangolae",
       image: (
         <StaticImage
@@ -777,11 +757,33 @@ const siteData = {
       ),
     },
     {
-      name: "Arjun Singh",
+      name: "Akshat Shanker Gupta",
       image: (
         <StaticImage
-          src="./images/portraits/arjun.jpg"
-          alt="Portrait of Arjun Singh"
+          src="./images/portraits/akshat.jpg"
+          alt="Portrait of Akshat Shanker Gupta"
+          placeholder="blurred"
+          aspectRatio={4 / 5}
+        />
+      ),
+    },
+    {
+      name: "Devansh Popli",
+      image: (
+        <StaticImage
+          src="./images/portraits/sachit.jpg"
+          alt="Portrait of Devansh Popli"
+          placeholder="blurred"
+          aspectRatio={4 / 5}
+        />
+      ),
+    },
+    {
+      name: "Panache Kataria",
+      image: (
+        <StaticImage
+          src="./images/portraits/panache.png"
+          alt="Portrait of Panache Kataria"
           placeholder="blurred"
           aspectRatio={4 / 5}
         />
@@ -797,20 +799,9 @@ const siteData = {
           aspectRatio={4 / 5}
         />
       ),
-    },
-    {
-      name: "Sachit Shastri",
-      image: (
-        <StaticImage
-          src="./images/portraits/sachit.jpg"
-          alt="Portrait of Sachit Shastri"
-          placeholder="blurred"
-          aspectRatio={4 / 5}
-        />
-      ),
-    },
+    }
   ],
-  coreTeamPageTitle: "Codefest 2024 Core Team Members",
+  coreTeamPageTitle: "Codefest 2025 Core Team Members",
   termsPage: {
     title: "Terms & Conditions",
     terms: [
