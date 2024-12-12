@@ -68,6 +68,9 @@ const siteData = {
     text: "Register Now!",
     internalUrl: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAChI0I5UMVY5VU5aRkhUOThIQ0ZCNVA1SzNHRU82Ry4u",
     externalUrl: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAChI0I5UMDA1NDBLVkpONVA1R0RRWVVRUEFWSUU2Qi4u",
+    internalPrice: "Rs. 1000",
+    externalPrice: "Rs. 1500",
+    description: "If your team has a member not from Oakridge International School Bangalore, please register as an external (non-Oakridger) team.",
     disabled: false,
   },
   typewriterContent: typewriterContent,
@@ -287,7 +290,7 @@ const siteData = {
             content: (
               <p>
                 Participants are expected to report to the venue at 8:30 on the
-                20th of January, and the event ends at around 14:30 the next
+                11th of January, and the event ends at around 14:30 the next
                 day. No extra time will be given if you are late.
               </p>
             ),
@@ -297,8 +300,8 @@ const siteData = {
             icon: <Restaurant />,
             content: (
               <p>
-                Lunch and dinner will be provided for the 20th of January.
-                Breakfast and lunch will be provided for the 21st of January for
+                Lunch and dinner will be provided for the 11th of January.
+                Breakfast and lunch will be provided for the 12th of January for
                 all participants and mentors.
               </p>
             ),

@@ -47,7 +47,7 @@ function HomePageNavBar() {
             elevation={3}
             sx={{ p: 0.25, m: 1, display: { xs: "none", sm: "flex" } }}
           >
-            <a href="https://www.oakridge.in/" target="_blank" rel="noreferrer">
+            <a href="https://www.oakridge.in/bengaluru" target="_blank" rel="noreferrer">
               <StaticImage
                 src="../images/oakridge-logo.png"
                 alt="Oakridge Logo"

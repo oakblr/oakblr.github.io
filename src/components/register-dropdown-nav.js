@@ -46,8 +46,14 @@ function RegisterDropdownNav() {
         <Typography id="modal-modal-title" variant="h6" component="h2" sx={{textAlign: "center"}}>
             Register for Oakridge Codefest!
         </Typography>
+        <Typography id="modal-modal-internalPrice" sx={{ mt: 2, mb: 1, textAlign: "center" }}>
+            Internal Registration: {siteData.registerButton.internalPrice}
+        </Typography>
+        <Typography id="modal-modal-externalPrice" sx={{ mt: 0, mb: 2, textAlign: "center" }}>
+            External Registration: {siteData.registerButton.externalPrice}
+        </Typography>
         <Typography id="modal-modal-description" sx={{ mt: 2, mb: 2, textAlign: "center" }}>
-            If your team has a member not from Oakridge International School Bangalore, please register as an external (non-Oakridger) team.
+            {siteData.registerButton.description}
         </Typography>
 
         <Box display="flex"
