@@ -413,7 +413,7 @@ const siteData = {
             icon: <MonetizationOn />,
             content: (
               <p>
-                The Rs. 1000 will cover all services provided by us including
+                The Rs. 1000/Rs. 1500 will cover all services provided by us including
                 your snacks, accommodation, and eligibility for the rewards
                 provided by our sponsors.
               </p>
@@ -743,7 +743,7 @@ const siteData = {
   footerDetails: {
     codefestEmail: "codefest@oakridge.in",
     facebookLink: "https://www.facebook.com/oakcf/",
-    instagramLink: "https://www.instagram.com/oakcodefest/",
+    instagramLink: "https://www.instagram.com/oakridgecodefest/",
     githubLink: "https://github.com/oakblr",
     copyrightHolder: "Oakridge Codefest",
   },
