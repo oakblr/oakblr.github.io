@@ -290,7 +290,7 @@ const siteData = {
             content: (
               <p>
                 Participants are expected to report to the venue at 8:30 on the
-                11th of January, and the event ends at around 14:30 the next
+                11th of January, and the event ends at around 12:30 the next
                 day. No extra time will be given if you are late.
               </p>
             ),
