@@ -69,7 +69,7 @@ const siteData = {
     internalUrl: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAChI0I5UMVY5VU5aRkhUOThIQ0ZCNVA1SzNHRU82Ry4u",
     externalUrl: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAChI0I5UMDA1NDBLVkpONVA1R0RRWVVRUEFWSUU2Qi4u",
     internalPrice: "Rs. 1000",
-    externalPrice: "Rs. 1500",
+    externalPrice: "Rs. 1250",
     description: "If your team has a member not from Oakridge International School Bangalore, please register as an external (non-Oakridger) team.",
     disabled: false,
   },
