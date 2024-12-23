@@ -90,9 +90,36 @@ function RegisterDropdownNav() {
             </Button>
             
         </Box>
+<br/>
+        <Typography id="modal-modal-title" variant="h6" component="h2" sx={{textAlign: "center"}}>
+            Register for the virtual Oakridge Codefest!
+            <br/>
+        </Typography>
 
+        <Typography id="modal-modal-description" sx={{ mt: 2, mb: 2, textAlign: "center" }}>
+     Only teams that stay outside Bangalore can register for the virtual codefest.
+        </Typography>
+
+        <Box display="flex"
+        justifyContent="center"
+        alignItems="center">
+       
+        <Button
+                href={siteData.registerButton.virtualUrl}
+                target="_blank"
+                rel="noreferrer"
+                sx={{
+                width: 150,
+                mx: 1,
+                my: 1,
+                textAlign: "center",
+                display: "block",
+                }}
+                variant="contained">
+                    Register
+            </Button>
         
-
+            </Box>
         </Box>
     </Modal>
 </>

@@ -68,6 +68,7 @@ const siteData = {
     text: "Register Now!",
     internalUrl: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAChI0I5UMVY5VU5aRkhUOThIQ0ZCNVA1SzNHRU82Ry4u",
     externalUrl: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAChI0I5UMDA1NDBLVkpONVA1R0RRWVVRUEFWSUU2Qi4u",
+    virtualUrl:"https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__QOVTyhUOFFZQlZWTExDSUdZUkJPMENOVlEzRjBKQi4u",
     internalPrice: "Rs. 1000",
     externalPrice: "Rs. 1250",
     description: "If your team has a member not from Oakridge International School Bangalore, please register as an external (non-Oakridger) team.",
@@ -774,7 +775,7 @@ const siteData = {
       name: "Devansh Popli",
       image: (
         <StaticImage
-          src="./images/portraits/sachit.jpg"
+          src="./images/portraits/devansh.jpg"
           alt="Portrait of Devansh Popli"
           placeholder="blurred"
           aspectRatio={4 / 5}
