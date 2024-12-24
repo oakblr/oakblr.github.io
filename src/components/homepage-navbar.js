@@ -39,6 +39,10 @@ function HomePageNavBar() {
     window.location = siteData.registerButton.externalUrl;
   }
 
+  const goToVirtualRegistrationForm = () => {
+    window.location = siteData.registerButton.virtualUrl;
+  }
+
   return (
     <AppBar position="static">
       <Container maxWidth="xl">
@@ -115,6 +119,16 @@ function HomePageNavBar() {
                 }}
               >
                 <Typography textAlign="center">Register (Non-Oakridgers) </Typography>
+              </MenuItem>
+
+              <MenuItem
+                key="RegisterExt"
+                onClick={() => {
+                  handleCloseNavMenu()
+                  goToVirtualRegistrationForm()
+                }}
+              >
+                <Typography textAlign="center">Register (Virtual hackathon) </Typography>
               </MenuItem>
 
             </Menu>
