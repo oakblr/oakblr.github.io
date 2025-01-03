@@ -1,6 +1,6 @@
 import * as React from "react"
-import { Card } from "@mui/material"
-import { Tungsten, Style, EmojiEvents } from "@mui/icons-material"
+import { Card, Chip } from "@mui/material"
+import { Tungsten, Style, EmojiEvents, AgricultureOutlined, Agriculture, CurrencyRubleRounded, Security, HPlusMobiledataRounded, ComputerTwoTone, ComputerSharp } from "@mui/icons-material"
 import {
   DirectionsBus,
   Book,
@@ -42,16 +42,16 @@ const typewriterContent = (
 type: <span className="string-highlight">'24 hour Overnight Hackathon'</span>, {"\n"}
 date: <span className="string-highlight">'11th and 12th January, 2025'</span>, {"\n"}
 location: <span className="string-highlight">'Oakridge International School, Bengaluru'</span>, {"\n"}
-{/* themes:[ {"\n"}
-<span className="string-highlight">'Eco-Tourism'</span>, {"\n"}
-<span className="string-highlight">'Pedagogical Tools'</span>, {"\n"}
-<span className="string-highlight">'Urban Transit'</span>, {"\n"}
-<span className="string-highlight">'AI on Edge Compute Platforms'</span>,  {"\n"}
+
+themes: <span className="string-highlight">
+<span className="string-highlight">'Cybersecurity'</span>, {"\n"}
+<span className="string-highlight">'Ed-Tech Innovation'</span>, {"\n"}
+<span className="string-highlight">'Human-Computer Interaction'</span>, {"\n"}
+<span className="string-highlight">'Sustainability in Agriculture'</span>,  {"\n"}
 <span className="string-highlight">'Fin-Tech Innovation'</span>,  {"\n"}
 <span className="string-highlight">'Game Development (Juniors Only)'</span>, {"\n"}
-] */}
-themes: <span className="string-highlight">'TBD'</span>
-{"\n"}{"}"};
+</span>
+{"}"};
 </pre>
 )
 
@@ -111,32 +111,31 @@ const siteData = {
     themes: [
       [
         {
-          name: "Eco-Tourism",
-          icon: <LocalFlorist />,
+          name: "Cybersecurity",
+          icon: <Security/>,
           description: (
             <p>
-              Dive into sustainable travel with the Eco-Tourism theme.
-              Participants will develop tech-driven solutions to promote
-              eco-tourism, facilitating travel that respects nature and local
-              cultures while offering educational experiences for travellers.
+              Explore ways to protect data, prevent cyber threats, and create tools 
+              that make online spaces secure for everyone. Participants may Develop
+               innovative solutions to defend against hacking, phishing, and other 
+               cyber risks while learning the fundamentals of cybersecurity.
             </p>
           ),
           example: (
             <p>
-              Example Project Ideas: National Park Watchdog App, Green Tour
-              Package Planner
+              Example Project Ideas: AI-Powered Threat Detection System, Secure File Sharing Platform{" "}
             </p>
           ),
         },
         {
-          name: "Pedagogical Tools",
+          name: "Ed-Tech Innovation",
           icon: <Book />,
           description: (
             <p>
-              This theme invites you to revolutionize the educational sphere by
-              creating tools and applications aimed at enhancing teacher
-              efficiency. Innovate to empower educators, streamline their
-              workflow, and transform the teaching experience.
+              This theme invites participants to revolutionize the education with technology, create
+               tools and applications that amplify learning experiences, enhance teacher efficiency,
+                and streamline educational processes. Innovate to bridge the gap between technology 
+                and education, transforming how knowledge is delivered and accessed.   
             </p>
           ),
           example: (
@@ -147,41 +146,39 @@ const siteData = {
           ),
         },
         {
-          name: "Urban Transit Solutions",
-          icon: <DirectionsBus />,
+          name: "Human-Computer Interaction ",
+          icon: <ComputerSharp />,
           description: (
             <p>
-              This theme focuses on redefining city mobility. Participants will
-              craft accessible, user-friendly tech solutions to innovate public
-              or private transit systems, making urban transportation more
-              efficient and accessible.
+              Innovate user-friendly apps, devices, or systems that make digital experiences 
+              more intuitive and accessible. Participants can Explore ways to enhance communication, accessibility,
+               and creativity through seamless human-computer integration, 
+               catering to diverse needs and abilities.
             </p>
           ),
           example: (
             <p>
-              Example Project Ideas: Crowd Data based Routes Planner, Transit
-              Availability Notifier{" "}
+              Example Project Ideas: Real-Time Sign Language Translator, Inclusive UI Design Toolkit
+              {" "}
             </p>
           ),
         },
       ],
       [
         {
-          name: "AI on Edge Compute Platforms",
-          icon: <Laptop />,
+          name: "Sustainability in Agriculture",
+          icon: <Agriculture />,
           description: (
             <p>
-              Venture into the world of on-device AI with this theme.
-              Participants develop inventive uses of edge computing (processing
-              on a local computer such as a laptop or Raspberry Pi) to produce
-              compact AI solutions that process data locally, bypassing the
-              cloud for faster and more secure on-site decisions.
+              Design technologies and strategies to reduce waste, conserve resources, 
+              and enhance sustainable food production. From smart irrigation to eco-friendly
+               pest control, tackle real-world agricultural challenges to make farming 
+               more efficient and environmentally friendly. 
             </p>
           ),
           example: (
             <p>
-              Example Project Ideas: Local-LLM Based Assistant, Offline Facial
-              Recognition System
+              Example Project Ideas: Precision Farming Analytics Platform, Crop Disease Detection System{" "}
             </p>
           ),
         },
