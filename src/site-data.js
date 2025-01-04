@@ -140,7 +140,7 @@ const siteData = {
           ),
           example: (
             <p>
-              Examples: Virtual Reality Interactive Classroom, Online Quiz
+              Example Project Ideas: Virtual Reality Interactive Classroom, Online Quiz
               Software{" "}
             </p>
           ),
