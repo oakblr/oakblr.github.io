@@ -1,0 +1,132 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; /* centers the entire section horizontally */
+    gap: 40px;
+    width: 100%; /* safe to ensure centering works reliably */
+    background-color: rgb(17, 17, 17);
+    margin: 0;
+    font-family: "Menlo", "Consolas", "Courier New", monospace;
+    color: #ffffff;
+}
+
+.ascii img {
+    max-width: 500px; /* resize if needed */
+    height: auto;
+    image-rendering: pixelated;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.title {
+    color: var(--sec-accent-color); 
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    margin-bottom: 10px;
+}
+
+.field {
+    display: block;
+    margin: 2px 0;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.field:hover {
+    color: var(--sec-accent-color);
+}
+
+.label {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.cursor {
+    display: inline-block;
+    margin-left: 2px;
+    width: 10px;
+    color: var(--sec-accent-color);
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
+
+.field {
+    white-space: nowrap;
+}
+
+@media (max-width: 1200px) {
+    .info {
+        font-size: 18px;
+    }
+    .cursor {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .info {
+        font-size: 16px;
+    }
+    .cursor {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 900px) {
+    .ascii img {
+        display: block;
+        margin: 0 auto;
+    }
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .ascii img {
+        max-width: 80%;
+    }
+    .info {
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .cursor {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ascii img {
+        max-width: 90%;
+    }
+    .info {
+        font-size: 12px;
+    }
+    .cursor {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    info {
+        font-size: 10px;
+    }
+    .cursor {
+        font-size: 10px;
+    }
+}

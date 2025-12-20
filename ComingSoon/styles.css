@@ -1,0 +1,115 @@
+body {
+    font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+    position: relative;
+}
+
+#matrix-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.15;
+}
+
+.coming-soon-hero {
+    padding: 100px 40px 40px;
+    text-align: center;
+}
+
+.coming-soon-hero .terminal-window {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.countdown-section {
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.countdown-grid {
+    max-width: 800px;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.countdown-item {
+    text-align: center;
+}
+
+.countdown-item .benefit-icon {
+    font-size: 3rem;
+    font-family: "JetBrains Mono", "Fira Code", monospace;
+    color: var(--text-color);
+    text-shadow: 0 0 15px var(--accent-color);
+}
+
+.benefits-section .benefit-icon {
+    font-family: "JetBrains Mono", "Fira Code", monospace;
+    font-size: 2rem;
+    color: var(--accent-color);
+    text-shadow: 0 0 10px var(--accent-color);
+}
+
+.countdown-item .benefit-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.benefits-section {
+    padding: 20px 40px;
+}
+
+.coming-soon-footer {
+    padding: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 40px;
+}
+
+.coming-soon-footer .info {
+    font-size: 0.9rem;
+}
+
+.fade-overlay {
+    height: 150px;
+    width: 100%;
+    background: linear-gradient(to bottom, transparent, var(--bg-color));
+    pointer-events: none;
+}
+
+.container {
+    background-color: var(--bg-color);
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .coming-soon-hero {
+        padding: 80px 20px 20px;
+    }
+
+    .countdown-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .countdown-section,
+    .benefits-section {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .countdown-item .benefit-icon {
+        font-size: 2rem;
+    }
+}
+
+.secondary-heading-text {
+    color: var(--sec-accent-color) !important;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 2.5em;
+}
