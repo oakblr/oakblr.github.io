@@ -1,8 +1,8 @@
 :root {
   --bg-color: rgb(17, 17, 17);
   --sec-bg: rgb(53, 53, 53);
-  --accent-color: rgb(53, 208, 227);
-  --sec-accent-color: rgb(255, 231, 51);
+  --accent-color: rgb(255, 231, 51);
+  --sec-accent-color: rgb(53, 208, 227);
   --tert-accent-color: rgb(242, 70, 79);
   --text-bg: rgb(0, 47, 82);
   --text-color: rgb(247, 242, 236);
